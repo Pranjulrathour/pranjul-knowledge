@@ -1,0 +1,401 @@
+{
+ "repo": "Pranjulrathour/pranjul-knowledge",
+ "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/",
+ "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/",
+ "files": [
+  {
+   "path": "knowledge/brand-engine.json",
+   "kind": "data",
+   "bytes": 137567,
+   "sha256": "3437886c1f239cf90a76b79d4eb4e308a40a27e8ae93fcd6f15ac389bf0f2e72",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/knowledge/brand-engine.json",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/knowledge/brand-engine.json"
+  },
+  {
+   "path": "knowledge/research.json",
+   "kind": "data",
+   "bytes": 71354,
+   "sha256": "f2a41af0e19f0a34182f095d4411ce23ea6b435f75ff0a949b9382d111c28227",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/knowledge/research.json",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/knowledge/research.json"
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-career-session-students.jpg",
+   "kind": "image",
+   "bytes": 68591,
+   "sha256": "52328549932d331e3930cf80dbb18f168d6d6f694b587274ec030523e29262da",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-career-session-students.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-career-session-students.jpg",
+   "width": 719,
+   "height": 878
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-college-auditorium-kanpur.jpg",
+   "kind": "image",
+   "bytes": 207698,
+   "sha256": "a0406129e65cad715fdfc353a8ea46583731c4973b0a1b13a2c30394c7a6f34f",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-college-auditorium-kanpur.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-college-auditorium-kanpur.jpg",
+   "width": 850,
+   "height": 1065
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-formal-campus-event.jpg",
+   "kind": "image",
+   "bytes": 42131,
+   "sha256": "058ea8b4911162cee0c3e02bafd73e2960670ad9a7acdc0ef486bad1d0dd1292",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-formal-campus-event.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-formal-campus-event.jpg",
+   "width": 407,
+   "height": 500
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-genai-engineer-kanpur.jpg",
+   "kind": "image",
+   "bytes": 90850,
+   "sha256": "f12ebff865c53f6150dfa18a8187b383ddbf2d25c563c76c0d11ab563bb37872",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-genai-engineer-kanpur.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-genai-engineer-kanpur.jpg",
+   "width": 696,
+   "height": 1004
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-hackathon-integral-startup-foundation.jpg",
+   "kind": "image",
+   "bytes": 53846,
+   "sha256": "5efed6ed2425cf68a749264d73358f2a5e9bf44d7199d6c8811a26df97233d85",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-hackathon-integral-startup-foundation.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-hackathon-integral-startup-foundation.jpg",
+   "width": 414,
+   "height": 590
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-hackathon-trophy-certificate.jpg",
+   "kind": "image",
+   "bytes": 61775,
+   "sha256": "07d5c7e58354335d1f4bab68fca6b65aee051dc0a3e1f559e02cca0fbc566643",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-hackathon-trophy-certificate.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-hackathon-trophy-certificate.jpg",
+   "width": 374,
+   "height": 773
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-judging-criteria-presentation.jpg",
+   "kind": "image",
+   "bytes": 46792,
+   "sha256": "a98b293cc7a3bf08740231c076450b4d3892aeb2a0004b0b4d057bf4140865e8",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-judging-criteria-presentation.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-judging-criteria-presentation.jpg",
+   "width": 702,
+   "height": 828
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-on-the-mic.jpg",
+   "kind": "image",
+   "bytes": 61470,
+   "sha256": "f88384db7068e8c2d385160ffcf5f3fa696c2cc107c2bd2b9dd6d8d7f44a48e2",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-on-the-mic.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-on-the-mic.jpg",
+   "width": 537,
+   "height": 689
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-pitch-csjmu-kanpur.jpg",
+   "kind": "image",
+   "bytes": 20188,
+   "sha256": "ab5ca03e9d9ee55869eada31ef8fc3cab921913020b8700f9c38e1c2b436c912",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-pitch-csjmu-kanpur.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-pitch-csjmu-kanpur.jpg",
+   "width": 462,
+   "height": 463
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-portrait.jpg",
+   "kind": "image",
+   "bytes": 28832,
+   "sha256": "55ab2ad6fc854a84d5c18f20af2070e4571d195d4e861aca1b4ac4135ac79794",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-portrait.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-portrait.jpg",
+   "width": 429,
+   "height": 511
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-presentation-conclusion.jpg",
+   "kind": "image",
+   "bytes": 59483,
+   "sha256": "b9d02cdbbe4140701076feda26c38ceb850bb8f6cf843bd5dc324ce161debf8b",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-presentation-conclusion.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-presentation-conclusion.jpg",
+   "width": 721,
+   "height": 763
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-presenting-annapurna-demo.jpg",
+   "kind": "image",
+   "bytes": 36309,
+   "sha256": "1e4fdee07916c35ae037d8c6da0ab344a043a74038239728177db3e5cbf8b06a",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-presenting-annapurna-demo.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-presenting-annapurna-demo.jpg",
+   "width": 506,
+   "height": 744
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-presenting-brandhive.jpg",
+   "kind": "image",
+   "bytes": 55740,
+   "sha256": "2a0a3f76f9feba5346dd4a698de25c033c3f815c9d6c7876ae06634bafdc7bcc",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-presenting-brandhive.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-presenting-brandhive.jpg",
+   "width": 911,
+   "height": 496
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-presenting-krishgyan.jpg",
+   "kind": "image",
+   "bytes": 93090,
+   "sha256": "03d9c6af39f1e4d93e949c460748ff8d1b44fe89787b5b334102e924096597ed",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-presenting-krishgyan.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-presenting-krishgyan.jpg",
+   "width": 834,
+   "height": 864
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-requirements-user-flow-talk.jpg",
+   "kind": "image",
+   "bytes": 38627,
+   "sha256": "9ac22c57922f5d59e09d1b564d5af8d0b3e33112630397fe3d90965edc154d8d",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-requirements-user-flow-talk.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-requirements-user-flow-talk.jpg",
+   "width": 699,
+   "height": 838
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-seated-portrait.jpg",
+   "kind": "image",
+   "bytes": 68425,
+   "sha256": "05ec3c4663eb0c14d916ebd41fa78ca3415bdcb093b91cd601f3aa263f575c4a",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-seated-portrait.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-seated-portrait.jpg",
+   "width": 707,
+   "height": 838
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-speaker-session-mic.jpg",
+   "kind": "image",
+   "bytes": 34864,
+   "sha256": "1f552a03508e88922d12da56d0074aa21d44cd0830f608acff968d157ac35066",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-speaker-session-mic.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-speaker-session-mic.jpg",
+   "width": 486,
+   "height": 498
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-speaking-meetkats-event.jpg",
+   "kind": "image",
+   "bytes": 34672,
+   "sha256": "07b2832ae4871db9f55de54cb6f60d9a0eee82ece519c66a6e6adeea694ae6da",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-speaking-meetkats-event.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-speaking-meetkats-event.jpg",
+   "width": 526,
+   "height": 475
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-talk-shipped-products.jpg",
+   "kind": "image",
+   "bytes": 56055,
+   "sha256": "7bfa827e6a438c720c2fcb9c90625cfbddf93655eae8ba51d5b4dac78ddc28a7",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-talk-shipped-products.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-talk-shipped-products.jpg",
+   "width": 702,
+   "height": 603
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-vsics-kanpur-campus.jpg",
+   "kind": "image",
+   "bytes": 52827,
+   "sha256": "9a68a4e8fb7ca71325236f6597089f500e073df5ddb9ad887aefdacaaf3f127a",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-vsics-kanpur-campus.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-vsics-kanpur-campus.jpg",
+   "width": 477,
+   "height": 500
+  },
+  {
+   "path": "media/images/pranjul/pranjul-rathour-vsics-podium.jpg",
+   "kind": "image",
+   "bytes": 21812,
+   "sha256": "2a4194bb249fc8071168d33dac6dd207231c94fb07352bc04ee639894bb84927",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/pranjul/pranjul-rathour-vsics-podium.jpg",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/pranjul/pranjul-rathour-vsics-podium.jpg",
+   "width": 517,
+   "height": 470
+  },
+  {
+   "path": "media/images/cutouts/suit.png",
+   "kind": "image",
+   "bytes": 593329,
+   "sha256": "29c7c4efaf64fb530f22c8a143a7250df035efe5aeb47325909348cfe278c498",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/cutouts/suit.png",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/cutouts/suit.png",
+   "width": 620,
+   "height": 1200
+  },
+  {
+   "path": "media/images/cutouts/turtleneck.png",
+   "kind": "image",
+   "bytes": 459437,
+   "sha256": "a3393ec3e046c3c756c909e56676ca457ae9109de491f368847d695b151f8505",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/cutouts/turtleneck.png",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/cutouts/turtleneck.png",
+   "width": 606,
+   "height": 734
+  },
+  {
+   "path": "media/projects/annapurna.webp",
+   "kind": "image",
+   "bytes": 119268,
+   "sha256": "5f576225edeee80554b3ee0c884e28a4c0402debdce865b8e17d820a2fef7c8d",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/projects/annapurna.webp",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/projects/annapurna.webp",
+   "width": 1600,
+   "height": 1000
+  },
+  {
+   "path": "media/projects/doculens-ai.webp",
+   "kind": "image",
+   "bytes": 71600,
+   "sha256": "ae4c3e758194c4db4aac95df3d36a1d331bb818778db9783bd7e8dae970bd6f5",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/projects/doculens-ai.webp",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/projects/doculens-ai.webp",
+   "width": 1600,
+   "height": 1000
+  },
+  {
+   "path": "media/projects/facevision.webp",
+   "kind": "image",
+   "bytes": 61848,
+   "sha256": "be08ce6375ad44aea554f354a23faf9546fbef8e345ff1c640395ebed0fbac54",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/projects/facevision.webp",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/projects/facevision.webp",
+   "width": 1600,
+   "height": 1000
+  },
+  {
+   "path": "media/projects/finetune-studio.webp",
+   "kind": "image",
+   "bytes": 78742,
+   "sha256": "1b37816a032afcdf2f440caf1aeb3df40cac786a52c8f58128c75292bfac5116",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/projects/finetune-studio.webp",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/projects/finetune-studio.webp",
+   "width": 1600,
+   "height": 1000
+  },
+  {
+   "path": "media/projects/gloss-digital-entertainment.webp",
+   "kind": "image",
+   "bytes": 44360,
+   "sha256": "88306e3469fe0d2a6fa0ba593342a6f643ae30ecd27959f2b39cfdc8c1626ee3",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/projects/gloss-digital-entertainment.webp",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/projects/gloss-digital-entertainment.webp",
+   "width": 1600,
+   "height": 1000
+  },
+  {
+   "path": "media/projects/nuclear-pest-goa.webp",
+   "kind": "image",
+   "bytes": 81146,
+   "sha256": "918616a76fc51fc970cde1dd4683bb7771563f367b407fccf94a7fcdeba18154",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/projects/nuclear-pest-goa.webp",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/projects/nuclear-pest-goa.webp",
+   "width": 1600,
+   "height": 1000
+  },
+  {
+   "path": "media/projects/ocr-speech-workspace.webp",
+   "kind": "image",
+   "bytes": 95538,
+   "sha256": "1191c57c820f302c63acc1ec6463cef66d21b0adde20a6f78f37f50506b93309",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/projects/ocr-speech-workspace.webp",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/projects/ocr-speech-workspace.webp",
+   "width": 1600,
+   "height": 1000
+  },
+  {
+   "path": "media/projects/passionate-records.webp",
+   "kind": "image",
+   "bytes": 92560,
+   "sha256": "2de7ce84e5ee0d68fa889e05a19797b8bc68a55dc68986849baeb70d04ec8812",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/projects/passionate-records.webp",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/projects/passionate-records.webp",
+   "width": 1600,
+   "height": 1000
+  },
+  {
+   "path": "media/projects/rag-nextupgrad.webp",
+   "kind": "image",
+   "bytes": 65300,
+   "sha256": "b9e415aea29661a7a787ba157b33c3a90e9d31f04b4b71630190fca92ea2dd1d",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/projects/rag-nextupgrad.webp",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/projects/rag-nextupgrad.webp",
+   "width": 1600,
+   "height": 1000
+  },
+  {
+   "path": "media/projects/scult-in.webp",
+   "kind": "image",
+   "bytes": 46542,
+   "sha256": "9e0dba7150c567de69c5c832ca007700120adf2c18f3d2c183dd415c074444da",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/projects/scult-in.webp",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/projects/scult-in.webp",
+   "width": 1600,
+   "height": 1000
+  },
+  {
+   "path": "media/projects/scult-marketing.webp",
+   "kind": "image",
+   "bytes": 56978,
+   "sha256": "b300fe6c32092de8e740704e4d75a30d8931f9056324e2d91417f3cbdf03833c",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/projects/scult-marketing.webp",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/projects/scult-marketing.webp",
+   "width": 1600,
+   "height": 1000
+  },
+  {
+   "path": "media/projects/scult-studio-crm.webp",
+   "kind": "image",
+   "bytes": 83780,
+   "sha256": "9fa800a1272791e4d243fb1399f625026d59919dd7de5afbaf58cd2467c50601",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/projects/scult-studio-crm.webp",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/projects/scult-studio-crm.webp",
+   "width": 1600,
+   "height": 1000
+  },
+  {
+   "path": "media/projects/super-digital-library.webp",
+   "kind": "image",
+   "bytes": 55428,
+   "sha256": "eaf423f5529a0702f6ee5f98f9f960a8d649f96bb2f6fc8bfcd857f6ed628a7f",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/projects/super-digital-library.webp",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/projects/super-digital-library.webp",
+   "width": 1600,
+   "height": 1000
+  },
+  {
+   "path": "media/projects/vaidya-ai.webp",
+   "kind": "image",
+   "bytes": 63900,
+   "sha256": "f336d6d0485346f152083b1e4c7e32f33fb7b5d4d75271c667d11ff8ccbfbb69",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/projects/vaidya-ai.webp",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/projects/vaidya-ai.webp",
+   "width": 1600,
+   "height": 1000
+  },
+  {
+   "path": "media/pdf/Pranjul_Rathour_Resume.pdf",
+   "kind": "pdf",
+   "bytes": 114262,
+   "sha256": "111ba86e6c913fd3f37f7a299ceb9e0c1950f7540077e54ea30c73d659f67d7c",
+   "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/pdf/Pranjul_Rathour_Resume.pdf",
+   "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/pdf/Pranjul_Rathour_Resume.pdf"
+  }
+ ]
+}

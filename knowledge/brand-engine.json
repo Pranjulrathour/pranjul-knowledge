@@ -1,0 +1,1063 @@
+{
+ "generated_at": "2026-09-04T21:09:26",
+ "positioning": {
+  "one_liner": "GenAI engineer who ships production RAG, fine-tuning and multimodal AI systems, and mentors student developers into real careers.",
+  "audiences": [
+   "college students (CS/IT/BCA/MCA)",
+   "training & placement officers and department heads",
+   "student tech clubs (GDSC, coding clubs, hackathon societies)",
+   "early-career developers moving into AI engineering"
+  ],
+  "pillars": [
+   {
+    "key": "rag",
+    "name": "Production RAG that refuses to hallucinate",
+    "angle": "hybrid retrieval, reranking, confidence gates, citations, streaming"
+   },
+   {
+    "key": "finetune",
+    "name": "Fine-tuning open models on a budget",
+    "angle": "QLoRA, dataset validation, live loss telemetry, base-vs-tuned evals, ~3 GB VRAM"
+   },
+   {
+    "key": "multimodal",
+    "name": "Vision, OCR and speech in real products",
+    "angle": "browser-side ONNX face recognition, privacy-by-design, page-batched OCR, live STT"
+   },
+   {
+    "key": "shipping",
+    "name": "Shipping AI products end-to-end as a small team",
+    "angle": "FastAPI + Next.js, Docker, Railway, CI, observability, tests that matter"
+   },
+   {
+    "key": "career",
+    "name": "From college hackathons to production AI",
+    "angle": "what won 3 hackathons, what actually gets you hired, portfolio over certificates"
+   },
+   {
+    "key": "community",
+    "name": "Building and running a developer community",
+    "angle": "500+ member community, mentoring 200+ students, running sessions that work"
+   }
+  ],
+  "voice": "First person, direct, practical. Show real numbers, tradeoffs and mistakes. Explain like a senior engineer talking to a smart junior. No hype, no filler.\n",
+  "avoid_mentions": [
+   "Vercel",
+   "vercel.app"
+  ],
+  "banned_phrases": [
+   "revolutionary",
+   "game-changing",
+   "cutting-edge",
+   "unlock the power",
+   "delve",
+   "in today's fast-paced world",
+   "In this article, we will"
+  ]
+ },
+ "facts": [
+  {
+   "id": "F001",
+   "kind": "skill",
+   "text": "AI/ML & GenAI: LLMs (OpenAI, Claude, Gemini, Mistral, Groq/Llama), RAG Pipelines & Hybrid (Dense+Sparse) Retrieval, LLM Fine-Tuning (LoRA/QLoRA via Hugging Face Transformers/PEFT/TRL), Vector Search & Embeddings, Prompt Engineering, LangChain, MCP (Model Context Protocol), OpenRouter, ONNX Runtime, Computer Vision",
+   "source": "resume"
+  },
+  {
+   "id": "F002",
+   "kind": "skill",
+   "text": "Languages: Python, JavaScript, TypeScript, HTML5, CSS3",
+   "source": "resume"
+  },
+  {
+   "id": "F003",
+   "kind": "skill",
+   "text": "Backend: FastAPI, Node.js, Express.js, REST APIs, WebSockets",
+   "source": "resume"
+  },
+  {
+   "id": "F004",
+   "kind": "skill",
+   "text": "Databases & Vector Stores: PostgreSQL, MongoDB, Supabase, Firebase, Redis, FAISS, Qdrant, pgvector",
+   "source": "resume"
+  },
+  {
+   "id": "F005",
+   "kind": "skill",
+   "text": "Frontend: React.js, Next.js, Tailwind CSS, Shadcn UI, Redux, Zustand",
+   "source": "resume"
+  },
+  {
+   "id": "F006",
+   "kind": "skill",
+   "text": "Cloud & Tools: AWS, Docker, Railway, Git, GitHub, CI/CD",
+   "source": "resume"
+  },
+  {
+   "id": "F007",
+   "kind": "achievement",
+   "text": "Independently designed, built, and shipped 5 production-grade AI applications end-to-end — spanning computer vision, document intelligence, LLM fine-tuning, speech-to-text/OCR, and retrieval-augmented generation (full list under Projects).",
+   "source": "resume"
+  },
+  {
+   "id": "F008",
+   "kind": "achievement",
+   "text": "Built a production RAG platform with hybrid (dense + sparse) retrieval, re-ranking, and streaming citation-grounded answers, including a confidence gate that blocks the model from answering on weak evidence.",
+   "source": "resume"
+  },
+  {
+   "id": "F009",
+   "kind": "achievement",
+   "text": "Built an end-to-end LLM fine-tuning platform (QLoRA via Hugging Face Transformers/PEFT/TRL) with live training telemetry and side-by- side base-vs-fine-tuned evaluation.",
+   "source": "resume"
+  },
+  {
+   "id": "F010",
+   "kind": "achievement",
+   "text": "Deployed and operated all five services on cloud hosts with Docker, CI/CD, and observability (structured logging, metrics), achieving production-grade reliability across the portfolio.",
+   "source": "resume"
+  },
+  {
+   "id": "F011",
+   "kind": "achievement",
+   "text": "Built and shipped 5+ paid, production-grade web applications and AI-powered products for clients across industries.",
+   "source": "resume"
+  },
+  {
+   "id": "F012",
+   "kind": "achievement",
+   "text": "Led engineering, system architecture, UI/UX, deployment, and client delivery for a cross-functional 14-member team.",
+   "source": "resume"
+  },
+  {
+   "id": "F013",
+   "kind": "achievement",
+   "text": "Designed and developed SCULT Studio CRM, an internal platform for project, client, and operations management.",
+   "source": "resume"
+  },
+  {
+   "id": "F014",
+   "kind": "achievement",
+   "text": "Generated approximately INR 1,00,000 in revenue within the first six months of operation.",
+   "source": "resume"
+  },
+  {
+   "id": "F015",
+   "kind": "achievement",
+   "text": "Built and grew a 500+ member developer community; mentored 200+ students in web development and career growth.",
+   "source": "resume"
+  },
+  {
+   "id": "F016",
+   "kind": "project",
+   "text": "FaceVision – Demo | GitHub: Browser-only face detection, recognition & liveness-check app (ONNX Runtime Web); FastAPI/PostgreSQL backend stores only vector embeddings, never images.",
+   "source": "resume"
+  },
+  {
+   "id": "F017",
+   "kind": "project",
+   "text": "DocuLens AI – Demo | GitHub: Groq-LLM document-intelligence platform — extracts, compares & checks compliance on invoices/contracts with schema-validated, deterministic scoring.",
+   "source": "resume"
+  },
+  {
+   "id": "F018",
+   "kind": "project",
+   "text": "FineTune Studio – Demo | GitHub: End-to-end QLoRA fine-tuning platform (HF Transformers/PEFT/TRL) with live loss streaming and base- vs-fine-tuned evaluation.",
+   "source": "resume"
+  },
+  {
+   "id": "F019",
+   "kind": "project",
+   "text": "OCR & Speech Workspace – Demo | GitHub: Mistral-AI workspace for concurrent page-batched PDF OCR, live speech-to-text, and document-scoped RAG chat with citations.",
+   "source": "resume"
+  },
+  {
+   "id": "F020",
+   "kind": "project",
+   "text": "RAG.NextUpgrad – Demo | GitHub: Production RAG platform with hybrid dense + BM25 retrieval, a hallucination-blocking confidence gate, and automatic multi-provider fallback.",
+   "source": "resume"
+  },
+  {
+   "id": "F021",
+   "kind": "project",
+   "text": "SCULT INDIA – Demo | Website | Studio CRM: AI-first software agency platform with an internal CRM and workflow management system.",
+   "source": "resume"
+  },
+  {
+   "id": "F022",
+   "kind": "project",
+   "text": "Super Digital Library – Demo | Live: Digital library platform built with a scalable architecture for organizing and accessing large content collections.",
+   "source": "resume"
+  },
+  {
+   "id": "F023",
+   "kind": "project",
+   "text": "Vaidya AI – Demo | GitHub: LLM-powered healthcare chatbot delivering conversational patient assistance.",
+   "source": "resume"
+  },
+  {
+   "id": "F024",
+   "kind": "project",
+   "text": "Annapurna – Demo | GitHub: NGO donation platform with a streamlined giving and outreach flow.",
+   "source": "resume"
+  },
+  {
+   "id": "F025",
+   "kind": "project",
+   "text": "Nuclear Pest Goa – Demo | Live: Enterprise business website with SEO optimization and a fully responsive UI.",
+   "source": "resume"
+  },
+  {
+   "id": "F026",
+   "kind": "project",
+   "text": "SCULT Marketing – Demo | Live: Marketing landing platform for agency service offerings and lead generation.",
+   "source": "resume"
+  },
+  {
+   "id": "F027",
+   "kind": "project",
+   "text": "Gloss Digital Entertainment – Demo | Live: Media platform frontend built with a scalable component architecture.",
+   "source": "resume"
+  },
+  {
+   "id": "F028",
+   "kind": "project",
+   "text": "Passionate Records – Live: Music label website with a modern, responsive design.",
+   "source": "resume"
+  },
+  {
+   "id": "F029",
+   "kind": "award",
+   "text": "1st – IIT Roorkee Hackathon",
+   "source": "resume"
+  },
+  {
+   "id": "F030",
+   "kind": "award",
+   "text": "1st – CSJMU Kanpur",
+   "source": "resume"
+  },
+  {
+   "id": "F031",
+   "kind": "award",
+   "text": "Top 3, IIT Kanpur Hackathon",
+   "source": "resume"
+  },
+  {
+   "id": "F032",
+   "kind": "role",
+   "text": "Senior GenAI Engineer, SCULT INDIA",
+   "source": "resume"
+  },
+  {
+   "id": "F033",
+   "kind": "summary",
+   "text": "GenAI engineer and AI product builder with 2+ years shipping production-grade AI systems — Retrieval-Augmented Generation (RAG) pipelines, fine-tuned LLMs, hybrid retrieval, and multi-modal AI applications spanning vision, speech, and OCR — architected end-to-end from data ingestion through deployment. Led engineering for a 14-member team building AI-powered products, pairing deep GenAI/ML engineering with full-stack delivery, while driving measurable business revenue as a startup technical lead.",
+   "source": "resume"
+  },
+  {
+   "id": "F034",
+   "kind": "post",
+   "text": "LinkedIn post (2025-12-29): We didn’t win this hackathon. But we walked out stronger. ⚡ This clip is from our pitch for STROT — a system we built to tackle generational poverty using BAL. BUDDHI. VIDYA. We had a product. We had a story. We had a vision. But on stage, we got just 2 minutes to explain a system that takes hours to truly understand. That’s how it goes sometimes. No complaints. Only lessons: ✔ Clarity matters more than depth. ✔ Storytelling matters as much as systems. ✔ And every stage builds you for the",
+   "source": "linkedin"
+  },
+  {
+   "id": "F035",
+   "kind": "post",
+   "text": "LinkedIn post (2025-12-28): We didn’t win this hackathon. But we walked out stronger. ⚡ This clip is from our pitch for STROT — a system we built to tackle generational poverty using BAL. BUDDHI. VIDYA. We had a product. We had a story. We had a vision. But on stage, we got just 2 minutes to explain a system that takes hours to truly understand. That’s how it goes sometimes. No complaints. Only lessons: ✔ Clarity matters more than depth. ✔ Storytelling matters as much as systems. ✔ And every stage builds you for the",
+   "source": "linkedin"
+  },
+  {
+   "id": "F036",
+   "kind": "post",
+   "text": "LinkedIn post (2025-12-27): Not a demo. Not a pitch. Just us building STROT in real time ⚙️🚀 This video captures what hackathons really look like: code flying, designs changing, logic breaking, fixing, and repeating — all while the clock keeps ticking. We were deep in turning an idea into STROT.in — a system-driven platform to fight generational poverty using BAL. BUDDHI. VIDYA. Moments like these remind me: Products aren’t born in slides. They’re forged in late nights, debates, and lines of code. Here’s a glimpse of",
+   "source": "linkedin"
+  },
+  {
+   "id": "F037",
+   "kind": "post",
+   "text": "LinkedIn post (2025-12-26): Two nights. Almost no sleep. One goal: build STROT.in 🚀 This post isn’t about a final product. It’s about the process behind it. prod - https://lnkd.in/gX9SuTG8 souce code - https://lnkd.in/gXtYh4XX Over 48+ hours, our team worked through: ✔ System design ✔ Dashboards & flows ✔ UI + logic ✔ Pitch prep ✔ And a lot of coffee ☕ All to bring STROT — A Step Forward to life. A hackathon project focused on building infrastructure to break the cycle of generational poverty through BAL. BUDDHI. VI",
+   "source": "linkedin"
+  },
+  {
+   "id": "F038",
+   "kind": "post",
+   "text": "LinkedIn post (2025-10-20): ✨ Our First SCULT INDIA Family Meet — A Day to Remember! ✨ This Diwali season became even more special for us as we hosted the very first meet of the SCULT India family — a moment filled with joy, laughter, and genuine connection. It was a privilege to come together not just as colleagues, but as a growing family bound by shared dreams and purpose. Alongside my amazing teammates — Saksham Gupta (CEO & Founder), Raman Shukla (COO), and myself, PRANJUL RATHOUR (CTO & Co-Founder) — we had the hon",
+   "source": "linkedin"
+  },
+  {
+   "id": "F039",
+   "kind": "post",
+   "text": "LinkedIn post (2025-10-05): 🚀 Built a Full Stack AI Project in Just 30 Minutes — Using AI to Build AI! What if I told you that you can create an entire end-to-end AI web app — backend + frontend + deployment — all in under 30 minutes? In my latest YouTube video, I’ve shown exactly how I built a working AI-powered full stack project using modern AI tools and automation — no complicated setup, no wasted hours. This video walks you through: ✅ How to plan and structure your AI app ✅ Setting up backend + frontend using AI to",
+   "source": "linkedin"
+  },
+  {
+   "id": "F040",
+   "kind": "post",
+   "text": "LinkedIn post (2025-09-23): spreading some gyan over Oceans 🌊 somewhere around Colombia, south carolina to a computer science student and I didn't know his name either",
+   "source": "linkedin"
+  },
+  {
+   "id": "F041",
+   "kind": "post",
+   "text": "LinkedIn post (2025-09-22): TCS CodeVita 2025 – Complete Guide to Preparation and Registration Hello Linkedin family, Are you planning to participate in TCS CodeVita 2025? This competition by Tata Consultancy Services (TCS) is one of the largest coding contests in the world and a direct gateway to TCS careers, placements, and jobs. Many students struggle with: - How to complete the TCS CodeVita registration process - Finding the correct CodeVita preparation material and syllabus - Practicing for competitiv",
+   "source": "linkedin"
+  },
+  {
+   "id": "F042",
+   "kind": "post",
+   "text": "LinkedIn post (2025-09-12): Calling all Tech Enthusiasts, Builders & Innovators! I’m excited to share that we’ve launched TECHVERSE ENCLAVE – a fast-growing community where passionate minds from every domain of technology come together to learn, share, and build. Whether you’re into AI, Web Dev, Cybersecurity, Data Science, Cloud, Startups, or any other tech field – this is the space for you. Inside, you’ll find: ✨ Knowledge sharing & resources ✨ Project collaboration & brainstorming ✨ Updates on events, hackathons & opp",
+   "source": "linkedin"
+  },
+  {
+   "id": "F043",
+   "kind": "post",
+   "text": "LinkedIn post (2025-07-14): This is the no-BS advice I wish someone gave me in Year 1: 👉 Post your projects 👉 Talk to strangers (aka networking) 👉 Be bad at something — and grow in public Shared this with 100+ juniors at VSICS Kanpur BCA Induction 2025 The feedback? Electric ⚡ #VSICS #FutureOfEducation #PranjulRathour #BCA2025 #StudentMentor",
+   "source": "linkedin"
+  },
+  {
+   "id": "F044",
+   "kind": "post",
+   "text": "LinkedIn post (2025-07-12): 📣 From Project Failures to Purposeful Mentorship | VSICS Kanpur BCA Induction 2025–2028 Back then? I was just a confused kid with a broken idea. Living Space Automation = my first major tech flop. 💔 Now? I’m standing at the front — mentoring 100+ future technologists at the Dr. Virendra Swarup Educational Foundation , Kanpur Swarup Educational Foundation, Kanpur (VSICS). The feeling? Unmatched. The mission? Unshakable. 💼⚡ 🧠 Here’s the Real Roadmap I Shared (Save this 👇) Year 1 – Foundation &",
+   "source": "linkedin"
+  },
+  {
+   "id": "F045",
+   "kind": "post",
+   "text": "LinkedIn post (2025-07-11): From First Failure to First-Year Mentorship 💻✨ | BCA Induction 2025–2028 Dr. Virendra Swarup Educational Foundation , Kanpur (VSICS Kanpur) It feels surreal. Just a few semesters ago, I was struggling to get my first tech project off the ground — Living Space Automation failed HARD. Fast forward to today… I stood as a mentor on stage, guiding the incoming BCA Batch 2025–2028 at Dr. Virendra Swarup Institute of Computer Studies, Kanpur (VSICS) during their Induction Seminar. Legacy? In motion.",
+   "source": "linkedin"
+  },
+  {
+   "id": "F046",
+   "kind": "post",
+   "text": "LinkedIn post (2025-06-24): thats about the whole journey till now guys started from Dr. Virendra Swarup Educational Foundation , Kanpur Indian Institute of Technology, Kanpur Indian Institute of Technology, Roorkee Chhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur MeetKats TECHVERSE ENCLAVE so , see u guys at the induction ceremony for upcoming batch of BCA 2025 at Dr. Virendra Swarup Educational Foundation , Kanpur seminar hall at 06/07/2025 along with my mates Saksham Gupta Raman Shukla",
+   "source": "linkedin"
+  },
+  {
+   "id": "F047",
+   "kind": "post",
+   "text": "LinkedIn post (2025-06-03): 🎉 First Prize Locked! 🎉 Absolutely pumped to announce that Team TechVerse, led by yours truly (Pranjul Rathour), won BYTEBATTLE by MEETKATS with our project **Annapurna**—a seamless platform for food donors, NGOs & volunteers. A huge shoutout to Saksham Gupta & Raman Shukla for their relentless hustle. 🙌 Competing against 15+ teams and 60+ innovators, we came out on top. This win isn’t just ours—it’s for every volunteer working to end hunger. 🚀❤️ Grateful, energized, and hungry for the nex",
+   "source": "linkedin"
+  },
+  {
+   "id": "F048",
+   "kind": "post",
+   "text": "LinkedIn post (2025-06-03): 🚀 BYTEBATTLE Champs! 🚀 Proud to share that I (Pranjul Rathour) led Team TechVerse to victory at BYTEBATTLE, organized by MeetKats ! Our brainchild, **Annapurna**—a food-sharing hub for donors, NGOs & volunteers—beat 15+ teams and 60+ individuals to snag the 1️⃣st prize. 🏆 Massive props to Saksham Gupta & Raman Shukla for crunching code and ideas non-stop. This win fuels our mission: ending food waste and feeding hope. 🌱💙 Stay tuned—TechVerse is just heating up! 🔥 #Champions #HackathonWin #",
+   "source": "linkedin"
+  },
+  {
+   "id": "F049",
+   "kind": "post",
+   "text": "LinkedIn post (2025-06-02): 🚀 WE WON BYTEBATTLE HACKATHON — 1st PRIZE BABY! 🏆 Feeling insanely proud to share that Team TechVerse, under my leadership (Pranjul Rathour), bagged the 1st Prize 🥇 at BYTEBATTLE, an intense hackathon organized by MeetKats ! 😎💻 Over 15+ competitive teams and 60+ incredible minds battled it out with their innovation, but we came out on top — not just with code, but with purpose. 🙌 🎯 Our winning project: “ANNAPURNA” A smart, scalable food-sharing platform designed to bridge the gap between: 🍱 F",
+   "source": "linkedin"
+  },
+  {
+   "id": "F050",
+   "kind": "post",
+   "text": "LinkedIn post (2025-05-30): Presenting ANNAPURNA — a real-time food-sharing platform connecting food donors, NGOs, and volunteers. 💡 Built to fight food waste. 💻 Powered by React, Supabase & real-time tech. 🌍 Designed for impact. 🚀 Live Now: the Annapurna repo on GitHub 📦 GitHub: pranjulrathour/ annapurna.live Don’t waste it. Donate it. 🙌 with my team mate Raghvendra Singh Prateek Pal #ReelWithImpact #TechForGood #FoodSharingApp #ReactJS #LinkedInReels #InstaReels #FullStackDeveloper #AnnapurnaLive #HackathonProject #Social",
+   "source": "linkedin"
+  },
+  {
+   "id": "F051",
+   "kind": "post",
+   "text": "LinkedIn post (2025-05-07): Thrilled to share that I secured the 2nd Runner-Up position in \"Perspectives Unleashed\", a debate competition organized by the Computer Applications Department at Dr. Virendra Swarup Educational Foundation , Kanpur This platform wasn’t just about expressing opinions—it was about understanding diverse perspectives, thinking critically, and communicating effectively under pressure. Every argument refined my thinking, every rebuttal sharpened my voice. A big shoutout to the organizing team and fac",
+   "source": "linkedin"
+  },
+  {
+   "id": "F052",
+   "kind": "post",
+   "text": "LinkedIn post (2025-05-07): Honored to be awarded the 1st Runner-Up position in the Cyber Security Awareness Event organized by the Department of Computer Applications at Dr. Virendra Swarup Educational Foundation , Kanpur This experience was not just a competition but a powerful learning journey that deepened my understanding of cybersecurity principles, current threats, and preventive measures in the digital space. I’d like to extend heartfelt thanks to the faculty for organizing such an insightful event and to my teamm",
+   "source": "linkedin"
+  },
+  {
+   "id": "F053",
+   "kind": "post",
+   "text": "LinkedIn post (2025-04-20): Honoured to receive the 1st Prize in Product Genesis at Vividhotsava 2025, Chhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur — from none other than Prof. Vinay Kumar Pathak, Hon’ble Vice Chancellor. Our startup concept, BrandHive, is designed to empower small businesses through AI-generated content and seamless UGC collaborations. This recognition is more than a win — it’s a validation of the problem we’re solving, the market we’re reaching, and the solution we’re building. Grateful to",
+   "source": "linkedin"
+  },
+  {
+   "id": "F054",
+   "kind": "post",
+   "text": "LinkedIn post (2025-04-19): Startups aren’t born in boardrooms — they’re born on stages like this. Shared our product pitch at Product Genesis, CSJMU’s flagship business event at Vividhotsava 2025. Our idea addressed [insert the core problem if you want] and was built around: Market insights User-first solutions Scalable tech-backed models More than just competing, we got real validation on storytelling, clarity, and how to communicate business under pressure. This wasn’t just about “winning” — this was a simulation",
+   "source": "linkedin"
+  },
+  {
+   "id": "F055",
+   "kind": "post",
+   "text": "LinkedIn post (2025-04-19): DAY -02 Startup storytelling meets stage spotlight. Had the privilege to present at Product Genesis – the business innovation showcase during Vividhotsava 2025 at Chhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur . Our pitch covered: Problem validation and user pain points A lean MVP structure with technical feasibility Revenue model, scalability, and user acquisition game plan More than just a competition, this was a sandbox to test clarity of vision, communication, and business acu",
+   "source": "linkedin"
+  },
+  {
+   "id": "F056",
+   "kind": "post",
+   "text": "LinkedIn post (2025-04-14): 🔐 Cybersecurity Awareness Event at Dr. Virendra Swarup Educational Foundation , Kanpur Last week, our campus transformed into a hub of digital vigilance during the Cybersecurity Awareness event. Let's continue to champion digital safety and inspire the next generation of cybersecurity experts. #CybersecurityAwareness #DigitalSafety #FutureOfCybersecurity #CyberCareers #StaySecure",
+   "source": "linkedin"
+  },
+  {
+   "id": "F057",
+   "kind": "post",
+   "text": "LinkedIn post (2025-04-13): What a day to remember! Wrapped up an amazing session on AI-powered software development at Dr. Virendra Swarup Educational Foundation , Kanpur From deep dives into AI integrations to real-world applications — the energy, the questions, the learning — unmatched! Big thanks to everyone who showed up hungry for knowledge. The future is ours to build. Let’s keep pushing boundaries! #AI #MentorshipSession #TechLeadership #Innovation #FutureOfWork #VSICS #TechverseEnclave #PranjulRathour",
+   "source": "linkedin"
+  },
+  {
+   "id": "F058",
+   "kind": "post",
+   "text": "LinkedIn post (2025-04-13): VSICS ka TEMPO HIGH hai! We wrapped up the AI Mentorship Session with unstoppable energy, powerful learnings, and full passion. At VSICS, we don't just talk tech — we live it, lead it, and build it. Watch out, world. We’re coming louder, stronger, smarter. #VSICSTempoHigh #TempoHigh #AILeadership #FutureTech #TechverseEnclave #ProudMoment #PranjulRathour",
+   "source": "linkedin"
+  },
+  {
+   "id": "F059",
+   "kind": "post",
+   "text": "LinkedIn post (2025-04-11): AI is not the future of software development. It’s the present. Watch how coding, testing, and scaling are getting a whole new upgrade with AI. Adapt or get left behind. #AI #SoftwareDevelopment #TechInnovation #AIFuture #NextGenCoding #AIRevolution #FutureOfWork #PranjulRathour",
+   "source": "linkedin"
+  },
+  {
+   "id": "F060",
+   "kind": "post",
+   "text": "LinkedIn post (2025-04-11): AI is not the future — it's already rewriting the present. Had the incredible opportunity to mentor and share my learnings at Dr. Virendra Swarup Educational Foundation , Kanpur In this session, we decoded how AI is now a full-time co-developer — integrating into every step of the software development lifecycle: Smarter requirements gathering Automated coding and testing Predictive analytics in deployment AI-driven maintenance and upgrades Every idea discussed is a glimpse into how tomorro",
+   "source": "linkedin"
+  },
+  {
+   "id": "F061",
+   "kind": "post",
+   "text": "LinkedIn post (2025-04-09): AI Mentorship: Innovate, Create & Conquer Excited to announce an exclusive AI mentorship session at Dr. Virendra Swarup Educational Foundation , Kanpur , Kanpur! If you're a first-year engineer eager to dive into the future of tech, this event is your launchpad. In this session, I, Pranjul Rathour , will share how AI is radically transforming software development. I’ll walk you through the evolution from traditional coding processes to a future where AI-powered tools like intelligent code edit",
+   "source": "linkedin"
+  },
+  {
+   "id": "F062",
+   "kind": "post",
+   "text": "LinkedIn post (2025-04-05): 🌟 Step into the Future of AI! 🌟 Want to take your AI skills to the next level? Join us at the Artificial Intelligence Mentorship Session & IIT Roorkee Changethon Project Showcase! This is your chance to learn directly from industry experts and discover cutting-edge AI projects. only at TECHVERSE ENCLAVE 📢 Meet Our Speakers: 💻 Raman Shukla – Python Dev 🎨 Saksham Gupta – UI/UX Specialist 🛠️ Pranjul Rathour – AI Product Dev 🗓 8th April | Tuesday | 11 AM 📍 Seminar Hall, VSICS Campus 🔥 Learn. Net",
+   "source": "linkedin"
+  },
+  {
+   "id": "F063",
+   "kind": "post",
+   "text": "LinkedIn post (2025-03-31): 🔹 INSIGHT - THE TALK SHOW 🔹 An engaging and thought-provoking experience at INSIGHT - The Talk Show, organized by the Computer Application Department, VSICS, Kanpur on 29th March 2025! 🎤💡 🔥 Topic: Nationalism and Government Policies in India 🇮🇳📜 🗣️ Stance: Against ❌ 🚀 Key Arguments I Presented: 🔹 The potential risks of extreme nationalism affecting policy decisions 🚧 🔹 The need for critical thinking over blind allegiance 🧠 🔹 How excessive nationalism can sometimes hinder global collaboration",
+   "source": "linkedin"
+  },
+  {
+   "id": "F064",
+   "kind": "post",
+   "text": "LinkedIn post (2025-03-30): 🔹 INSIGHT - THE TALK SHOW 🔹 An engaging and thought-provoking experience at INSIGHT - The Talk Show, organized by the Computer Application Department, VSICS, Kanpur on 29th March 2025! 🎤💡 🔥 Topic: Nationalism and Government Policies in India 🇮🇳📜 🗣️ Stance: Against ❌ 🚀 Key Arguments I Presented: 🔹 The potential risks of extreme nationalism affecting policy decisions 🚧 🔹 The need for critical thinking over blind allegiance 🧠 🔹 How excessive nationalism can sometimes hinder global collaboration",
+   "source": "linkedin"
+  },
+  {
+   "id": "F065",
+   "kind": "post",
+   "text": "LinkedIn post (2025-03-08): Honored to receive a Certificate of Appreciation from Dr. Virendra Swaroop Institute of Computer Studies today! 🎓🏆 Our team, Techverse, achieved 1st Prize at the National Social Summit at IIT Roorkee during the Changethon Hackathon. We developed an innovative solution that truly pushed the boundaries of AgriTech and education. A heartfelt thank you to our Executive Director, Arpit Awasthi, for presenting this award, and my sincere appreciation to Dr. Pragya Awasthi (Head Academics), Sir Rahul",
+   "source": "linkedin"
+  },
+  {
+   "id": "F066",
+   "kind": "post",
+   "text": "LinkedIn post (2025-03-03): Winning at Changethon 2025: Transforming Agriculture with Technology! 🚀🌱 I’m proud to share our victory at Changethon 2025, where our team Techverse secured 1st Prize at IIT Roorkee’s hackathon focused on education in agriculture. Here’s a quick breakdown of our journey: Event: Changethon 2025 (Hackathon at IIT Roorkee) Theme: Education in Agriculture Empowering farmers through innovative tech solutions. Project: Krishi Gyan An AI-powered agribot designed to provide real-time farming guidance",
+   "source": "linkedin"
+  },
+  {
+   "id": "F067",
+   "kind": "post",
+   "text": "LinkedIn post (2025-02-28): 🚀 Changethon 2025: Revolutionizing Education in Agriculture! 🌱🤖 Thrilled to announce that our team, Techverse, clinched the 1st Prize at Changethon 2025—a hackathon dedicated to leveraging education for impactful change! We developed Krishi Gyan, an innovative agribot that empowers farmers by providing real-time guidance and solutions to their farming queries. Key Highlights: • Theme: Education in Agriculture • Project: Krishi Gyan – Your digital farming companion • Objective: Bridging modern",
+   "source": "linkedin"
+  },
+  {
+   "id": "F068",
+   "kind": "stat",
+   "text": "GitHub: 24 public repos, 15 followers, account since 2024-03-10.",
+   "source": "github"
+  },
+  {
+   "id": "F069",
+   "kind": "project",
+   "text": "Repo FACEVISION-NEXTUPGRAD- (TypeScript): Every model here was verified against its actual ONNX graph and, where possible, the original reference implementation — not assumed from documentation. Live: https://face-vision-frontend-production.up.railway.app, https://face-vision-backend-production.up.railway.app/docs",
+   "source": "github"
+  },
+  {
+   "id": "F070",
+   "kind": "project",
+   "text": "Repo DOCULENS-AI-NEXTUPGRAD- (TypeScript): Built as a single Next.js application: no database, no auth layer, no separate backend service. Enterprise-grade code; intentionally minimal infrastructure.",
+   "source": "github"
+  },
+  {
+   "id": "F071",
+   "kind": "project",
+   "text": "Repo FINETUNESTUDIO (Python): A production-quality platform for fine-tuning open-source LLMs with LoRA/QLoRA — end to end, in a browser. Live: https://finestudio-frontend-production.up.railway.app, https://finetunestudio-production.up.railway.app",
+   "source": "github"
+  },
+  {
+   "id": "F072",
+   "kind": "project",
+   "text": "Repo OCR-STT-NEXTUPGRAD-mistral.ai- (Python): A production-grade SaaS workspace built on two Mistral AI multimodal capabilities: **OCR** (image/PDF → structured, searchable text, at book scale) and **real-time Speech-to-Text** (live microphone transcription with a post-recording accuracy refinement pass). Built to feel like something shippable tomorrow, not a weekend demo.",
+   "source": "github"
+  },
+  {
+   "id": "F073",
+   "kind": "project",
+   "text": "Repo RAG.NEXTUPGRAD (Python): Ask questions about your own documents and get answers you can actually verify.",
+   "source": "github"
+  },
+  {
+   "id": "F074",
+   "kind": "project",
+   "text": "Repo VAIDYA.ai (TypeScript): A modern health management platform that combines AI-powered insights with comprehensive health tracking. Built with React, TypeScript, Supabase, and Google's Gemini AI.",
+   "source": "github"
+  },
+  {
+   "id": "F075",
+   "kind": "project",
+   "text": "Repo annapurna.live (TypeScript): Every day, millions of people go hungry while tons of good food is wasted. In India alone, approximately 40% of the food produced is wasted, while 189.2 million people remain undernourished. This paradox exists because of inefficient food distribution systems and a lack of technology to connect food donors with recipients.",
+   "source": "github"
+  },
+  {
+   "id": "F076",
+   "kind": "profile",
+   "text": "CTO & Co-Founder of SCULT INDIA, the AI-first software studio — 5+ paid client products shipped, ₹1L+ revenue in the first six months, a 14-member cross-functional team led",
+   "source": "github-profile"
+  },
+  {
+   "id": "F077",
+   "kind": "profile",
+   "text": "Built SCULT Studio, the internal CRM & operations platform the whole agency runs on",
+   "source": "github-profile"
+  },
+  {
+   "id": "F078",
+   "kind": "profile",
+   "text": "Founder of TechVerse Enclave — a 500+ member tech community, 200+ students mentored",
+   "source": "github-profile"
+  },
+  {
+   "id": "F079",
+   "kind": "profile",
+   "text": "I ship AI-powered SaaS, automation systems & production web apps — React, Next.js, TypeScript, Node.js, PostgreSQL, Supabase, and modern LLM APIs",
+   "source": "github-profile"
+  },
+  {
+   "id": "F080",
+   "kind": "profile",
+   "text": "BCA @ Dr. Virendra Swarup Institute of Computer Studies, Kanpur (2023–2026)",
+   "source": "github-profile"
+  },
+  {
+   "id": "F081",
+   "kind": "profile",
+   "text": "Chai-fueled and cinema-obsessed — hence the line above. I build like the universe is conspiring to help.",
+   "source": "github-profile"
+  },
+  {
+   "id": "F082",
+   "kind": "profile",
+   "text": "SCULT Studio — the CRM & ops platform running an AI-first agency end to end",
+   "source": "github-profile"
+  },
+  {
+   "id": "F083",
+   "kind": "profile",
+   "text": "Vaidya AI — LLM-powered healthcare chatbot for conversational assistance · code",
+   "source": "github-profile"
+  },
+  {
+   "id": "F084",
+   "kind": "profile",
+   "text": "Annapurna — hackathon-winning NGO donation platform with role-based workflows · code",
+   "source": "github-profile"
+  },
+  {
+   "id": "F085",
+   "kind": "profile",
+   "text": "Nuclear Pest Control Goa — enterprise client site with modern UI & performance tuning",
+   "source": "github-profile"
+  },
+  {
+   "id": "F086",
+   "kind": "profile",
+   "text": "SCULT Marketing — landing page for the studio's branding, software & AI services",
+   "source": "github-profile"
+  },
+  {
+   "id": "F087",
+   "kind": "profile",
+   "text": "Gloss Digital Entertainment — production-ready entertainment platform, responsive & scalable",
+   "source": "github-profile"
+  },
+  {
+   "id": "F088",
+   "kind": "profile",
+   "text": "Passionate Records — music label site built around artist discovery & brand identity",
+   "source": "github-profile"
+  },
+  {
+   "id": "F089",
+   "kind": "speaking",
+   "text": "Mentor and speaker at the BCA Induction Seminar for the 2025-2028 batch at Dr. Virendra Swarup Institute of Computer Studies (VSICS), Kanpur, on 6 July 2025: addressed 100+ first-year students with a three-year roadmap (Year 1 foundations and AI tools; Year 2 hackathons, internships, building in public; Year 3 placements, startup or NIMCET).",
+   "source": "manual"
+  },
+  {
+   "id": "F090",
+   "kind": "speaking",
+   "text": "Led an AI Mentorship Session on AI-powered software development at VSICS Kanpur (Seminar Hall, 8 April 2025) with Raman Shukla and Saksham Gupta under TechVerse Enclave: how AI enters every stage of the software lifecycle (requirements, automated coding and testing, deployment analytics, maintenance), closing with a showcase of the Changethon-winning project.",
+   "source": "manual"
+  },
+  {
+   "id": "F091",
+   "kind": "speaking",
+   "text": "Speaker at INSIGHT - The Talk Show, organized by the Computer Application Department, VSICS Kanpur, on 29 March 2025 (debate format; argued the 'against' side on nationalism and government policy in India).",
+   "source": "manual"
+  },
+  {
+   "id": "F092",
+   "kind": "award",
+   "text": "1st Prize, Changethon 2025 hackathon at the National Social Summit, IIT Roorkee (February 2025), with Team Techverse (Raman Shukla, Saksham Gupta): built Krishi Gyan, an AI agribot giving farmers real-time guidance (React, Python Flask, Gemini Flash API). Theme: education in agriculture.",
+   "source": "manual"
+  },
+  {
+   "id": "F093",
+   "kind": "award",
+   "text": "Certificate of Appreciation from Dr. Virendra Swarup Institute of Computer Studies (8 March 2025) for the Changethon 2025 win, presented by Executive Director Arpit Awasthi.",
+   "source": "manual"
+  },
+  {
+   "id": "F094",
+   "kind": "award",
+   "text": "1st Prize, Product Genesis (business pitch competition) at Vividhotsava 2025, Chhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur, April 2025, presented by Vice Chancellor Prof. Vinay Kumar Pathak, for BrandHive: a startup concept using AI-generated content and UGC collaborations for small businesses (with Raman Shukla).",
+   "source": "manual"
+  },
+  {
+   "id": "F095",
+   "kind": "award",
+   "text": "1st Prize, BYTEBATTLE hackathon organized by MeetKats (June 2025), leading Team TechVerse (Saksham Gupta, Raman Shukla) against 15+ teams and 60+ participants with Annapurna, a real-time food-sharing platform connecting donors, NGOs and volunteers (React, Supabase; code on GitHub).",
+   "source": "manual"
+  },
+  {
+   "id": "F096",
+   "kind": "award",
+   "text": "1st Runner-Up, Cyber Security Awareness Event, Department of Computer Applications, VSICS Kanpur (May 2025), with teammate Ujjwal Mishra.",
+   "source": "manual"
+  },
+  {
+   "id": "F097",
+   "kind": "award",
+   "text": "2nd Runner-Up, 'Perspectives Unleashed' debate competition, Computer Applications Department, VSICS Kanpur (May 2025).",
+   "source": "manual"
+  },
+  {
+   "id": "F098",
+   "kind": "role",
+   "text": "CTO & Co-Founder of SCULT INDIA alongside Saksham Gupta (CEO & Founder) and Raman Shukla (COO), mentored by Gaurav Gupta; hosted the first SCULT INDIA team meet in October 2025.",
+   "source": "manual"
+  },
+  {
+   "id": "F099",
+   "kind": "project",
+   "text": "Built STROT (strot.in) in a 48-hour hackathon in December 2025: a system-driven platform to fight generational poverty ('BAL. BUDDHI. VIDYA.'). Did not win; kept shipping the product. Lesson shared publicly: in a two-minute pitch, clarity and storytelling matter as much as the system.",
+   "source": "manual"
+  },
+  {
+   "id": "F100",
+   "kind": "community",
+   "text": "Launched the TechVerse Enclave community on LinkedIn in September 2025 (admins: Pranjul Rathour, Raman Shukla, Saksham Gupta, Nikhil Tiwari, Bidhan Bhattacharya, Om Tripathi) for AI, web, cybersecurity, data and startup learners.",
+   "source": "manual"
+  },
+  {
+   "id": "F101",
+   "kind": "community",
+   "text": "Publishes YouTube tutorials for students: a TCS CodeVita 2025 registration and preparation playlist (September 2025) and a 'full-stack AI app in 30 minutes' build with the PRD shared (October 2025).",
+   "source": "manual"
+  },
+  {
+   "id": "F102",
+   "kind": "community",
+   "text": "Available for hackathon judging, mentorship sessions and guest talks at colleges and student communities; invitations and collaborations: pranjulrathour41@gmail.com",
+   "source": "manual"
+  },
+  {
+   "id": "F103",
+   "kind": "judging",
+   "text": "Has judged student hackathons. [FILL: which hackathons, at which colleges, when]",
+   "source": "manual"
+  },
+  {
+   "id": "F104",
+   "kind": "company",
+   "text": "Scult — AI-Powered Company for Global Brands: Scult is an AI-powered company building premium websites, apps, SEO, branding and marketing for ambitious brands worldwide.",
+   "source": "website"
+  },
+  {
+   "id": "F105",
+   "kind": "company",
+   "text": "Dashboard — SCULT STUDIO: Operating overview for SCULT STUDIO: leads, projects, revenue, deliverables.",
+   "source": "website"
+  },
+  {
+   "id": "F106",
+   "kind": "company",
+   "text": "Scult India | #1 Influencer Marketing Agency in India | Creator Campaigns & UGC: Scult India is a leading influencer marketing agency specializing in creator campaigns, UGC content, Instagram & YouTube influencer collaborations, brand partnerships, and performance-driven social media marketing across India. 1000+ campaigns delivered for 50+ brands.",
+   "source": "website"
+  }
+ ],
+ "github_projects": [
+  {
+   "name": "FACEVISION-NEXTUPGRAD-",
+   "url": "https://github.com/Pranjulrathour/FACEVISION-NEXTUPGRAD-",
+   "language": "TypeScript",
+   "summary": "Every model here was verified against its actual ONNX graph and, where possible, the original reference implementation — not assumed from documentation.",
+   "live_links": [
+    "https://face-vision-frontend-production.up.railway.app",
+    "https://face-vision-backend-production.up.railway.app/docs"
+   ],
+   "pushed_at": "2026-08-21T18:12:36Z",
+   "readme_excerpt": "### 👁️ Privacy-first face detection that never leaves your browser\n\n[](https://github.com/Pranjulrathour/FACEVISION-NEXTUPGRAD-/actions/workflows/ci.yml)\n\n**[Live Demo](https://face-vision-frontend-production.up.railway.app)** · **[API Docs](https://face-vision-backend-production.up.railway.app/docs)** · **[Engineering Checklist](docs/face-detection-verification-checklist.md)**\n\n---\n\n## 🎯 At a Glance\n\n### 🔒 Privacy by Design\nRaw pixels **never leave your device**. Detection, embedding, and anti-spoofing all run client-side via ONNX Runtime Web. The backend only ever sees coordinates and vectors — never images.\n\n### ⚡ Real Models, Not Toys\nYuNet detection, SFace recognition (96.9% verified accuracy on LFW), and MiniFASNet anti-spoofing — all verified byte-for-byte against their ONNX graphs and reference C++ source, not assumed from docs.\n\n### 🧪 Actually Tested\n260+ automated tests across frontend and backend, a real load test against production that found and fixed a live bug, a 14-minute memory soak test, and an adversarial security suite.\n\n---\n\n## 🧭 Table of Contents\n\n| | | |\n|---|---|---|\n| [🏗️ Architecture](#-architecture) | [🖥️ Live Features](#-live-features) | [🚀 Quick Start](#-quick-start) |\n| [🧠 Model Zoo](#-model-zoo) | [📡 API Reference](#-api-reference) | [🛡️ Security & Rate Limiting](#-security--rate-limiting) |\n| [✅ Verification](#-verification) | [📊 Observability](#-observability) | [⚠️ Known Limitations](#-known-limitations) |\n| [☁️ Deploy to Railway](#-deploy-to"
+  },
+  {
+   "name": "DOCULENS-AI-NEXTUPGRAD-",
+   "url": "https://github.com/Pranjulrathour/DOCULENS-AI-NEXTUPGRAD-",
+   "language": "TypeScript",
+   "summary": "Built as a single Next.js application: no database, no auth layer, no separate backend service. Enterprise-grade code; intentionally minimal infrastructure.",
+   "live_links": [],
+   "pushed_at": "2026-08-11T14:38:56Z",
+   "readme_excerpt": "# DocuLens AI\n\n### *See. Extract. Verify.*\n\n**AI-Powered Business Document Intelligence**\n\n[](https://www.typescriptlang.org/)\n[](https://nextjs.org/)\n[](https://console.groq.com/)\n[](https://tailwindcss.com/)\n[](https://doculens-ai-nextupgrad.vercel.app)\n[](tests/)\n[](LICENSE)\n\n**[→ Live App](https://doculens-ai-nextupgrad.vercel.app)** &nbsp;·&nbsp; **[→ Analyze](https://doculens-ai-nextupgrad.vercel.app/analyze)** &nbsp;·&nbsp; **[→ Compare](https://doculens-ai-nextupgrad.vercel.app/compare)** &nbsp;·&nbsp; **[→ Compliance](https://doculens-ai-nextupgrad.vercel.app/compliance)**\n\n---\n\n## What is DocuLens AI?\n\n**DocuLens AI** transforms complex business documents into structured intelligence using large language models. Upload an invoice, purchase order, contract, or regulatory filing — get classification, field extraction, deterministic mismatch detection, compliance evaluation, and plain-language summaries — in seconds.\n\n> Built as a single Next.js application: no database, no auth layer, no separate backend service.  \n> Enterprise-grade code; intentionally minimal infrastructure.\n\n---\n\n## The Three Tools\n\n### 🔍 Analyze\n**Understand & Extract**\n\nUpload any document and get:\n- Auto-classification with confidence score\n- Structured field extraction (amounts, dates, parties, line items)\n- AI-generated executive summary\n- Issue detection with severity flags\n\nSupports: `PDF` `DOCX` `XLSX` `PNG` `JPG` `WEBP` `TXT`\n\n### ⇄ Compare\n**Invoice ↔ PO Matching**\n\nUpload an invoice + pu"
+  },
+  {
+   "name": "FINETUNESTUDIO",
+   "url": "https://github.com/Pranjulrathour/FINETUNESTUDIO",
+   "language": "Python",
+   "summary": "A production-quality platform for fine-tuning open-source LLMs with LoRA/QLoRA — end to end, in a browser.",
+   "live_links": [
+    "https://finestudio-frontend-production.up.railway.app",
+    "https://finetunestudio-production.up.railway.app",
+    "https://finetunestudio-production.up.railway.app/healthz",
+    "https://finetunestudio-production.up.railway.app/docs",
+    "https://kaggle.com",
+    "https://railway.app"
+   ],
+   "pushed_at": "2026-08-05T15:32:50Z",
+   "readme_excerpt": "# FineTune Studio\n\n**A production-quality platform for fine-tuning open-source LLMs with LoRA/QLoRA — end to end, in a browser.**\n\nUpload a dataset → validate it → configure QLoRA hyperparameters → launch a real training job →\nwatch loss stream live → compare the fine-tuned model against the base model side by side →\nexport the adapter. No notebook. No CLI. No paid APIs.\n\n[](.github/workflows/ci.yml)\n[](backend/pyproject.toml)\n[](backend)\n[](frontend)\n[](backend/tests)\n[](#license)\n\n**NEXT UPGRAD WEB SOLUTIONS**\n\n| 🧩 Backend endpoints | 🧪 Tests passing | 🖥️ Frontend pages | 🧠 Base model | ⚡ Peak VRAM | 🔁 Inference paths |\n|:---:|:---:|:---:|:---:|:---:|:---:|\n| **17** | **107 / 107** | **7** | **Qwen3-1.7B** | **~3.2 GB** | **3** (local / vLLM / HF Space) |\n\n---\n\n## Live demo\n\n  -yellow?style=flat-square)\n\nThe frontend and backend are both deployed and publicly reachable right now:\n\n| | Service | URL | Notes |\n|:---:|---|---|---|\n| ✅ | **Frontend (app)** | [finestudio-frontend-production.up.railway.app](https://finestudio-frontend-production.up.railway.app) | The full UI — Dashboard, Datasets, Training, Live Logs, Evaluation, Experiments, Settings |\n| ✅ | **Backend API** | [finetunestudio-production.up.railway.app](https://finetunestudio-production.up.railway.app) | FastAPI service the frontend talks to |\n| ✅ | **Backend health check** | [/healthz](https://finetunestudio-production.up.railway.app/healthz) | Liveness probe, unauthenticated |\n| ✅ | **Backend interactive API doc"
+  },
+  {
+   "name": "OCR-STT-NEXTUPGRAD-mistral.ai-",
+   "url": "https://github.com/Pranjulrathour/OCR-STT-NEXTUPGRAD-mistral.ai-",
+   "language": "Python",
+   "summary": "A production-grade SaaS workspace built on two Mistral AI multimodal capabilities: **OCR** (image/PDF → structured, searchable text, at book scale) and **real-time Speech-to-Text** (live microphone transcription with a post-recording accuracy refinement pass). Built to feel like something shippable tomorrow, not a weekend demo.",
+   "live_links": [],
+   "pushed_at": "2026-08-18T17:45:29Z",
+   "readme_excerpt": "# Mistral AI Workspace — OCR & Speech-to-Text\n\nA production-grade SaaS workspace built on two Mistral AI multimodal\ncapabilities: **OCR** (image/PDF → structured, searchable text, at\nbook scale) and **real-time Speech-to-Text** (live microphone\ntranscription with a post-recording accuracy refinement pass). Built to\nfeel like something shippable tomorrow, not a weekend demo.\n\n[](https://github.com/Pranjulrathour/OCR-STT-NEXTUPGRAD-mistral.ai-/actions/workflows/ci.yml)\n[](LICENSE)\n[](frontend)\n[](backend)\n\n---\n\n## Table of Contents\n\n1. [What this actually does](#what-this-actually-does)\n2. [Why it's built this way](#why-its-built-this-way)\n3. [Architecture](#architecture)\n4. [Tech stack](#tech-stack)\n5. [Repository layout](#repository-layout)\n6. [Getting started](#getting-started)\n7. [Configuration reference](#configuration-reference)\n8. [API reference](#api-reference)\n9. [How OCR works](#how-ocr-works)\n10. [How Speech-to-Text works](#how-speech-to-text-works)\n11. [Testing](#testing)\n12. [Docker](#docker)\n13. [Security](#security)\n14. [Production readiness](#production-readiness)\n15. [Troubleshooting](#troubleshooting)\n16. [Documentation index](#documentation-index)\n17. [Roadmap](#roadmap)\n18. [License](#license)\n\n---\n\n## What this actually does\n\n**OCR** — drop in an image or a PDF (a single scanned page or a whole\n400-page textbook) and get back clean, structured text: markdown with\nheadings and tables preserved, a plain-text version, and — for anything\nlonger than one page — "
+  },
+  {
+   "name": "RAG.NEXTUPGRAD",
+   "url": "https://github.com/Pranjulrathour/RAG.NEXTUPGRAD",
+   "language": "Python",
+   "summary": "Ask questions about your own documents and get answers you can actually verify.",
+   "live_links": [],
+   "pushed_at": "2026-07-29T09:21:37Z",
+   "readme_excerpt": "# RAG Platform\n\n**Ask questions about your own documents and get answers you can actually verify.**\n\nA production-grade Retrieval-Augmented Generation (RAG) service: upload PDFs, Word docs, HTML, plain text, or just a URL, and ask questions about them in plain English. Every answer streams back token-by-token with inline citations pointing at the exact passage it came from — no hallucinated claims with nowhere to check them.\n\n[](https://github.com/Pranjulrathour/RAG-NEXTUPGRAD-/actions/workflows/ci.yml)\n\n---\n\n## How it works\n\n```mermaid\nflowchart LR\n    subgraph ingest[\"Teaching it your documents\"]\n        direction LR\n        A[Upload / URL] --> B[Load & OCRif scanned]\n        B --> C[Chunk]\n        C --> D[Embed]\n        D --> E[(Vector store +BM25 index)]\n    end\n\n    subgraph answer[\"Answering a question\"]\n        direction LR\n        Q[Ask] --> F[Embed query]\n        F --> G[Hybrid retrievaldense + keyword]\n        G --> H{Confidentenough?}\n        H -- no --> N[\"I don't know based onthe provided documentation\"]\n        H -- yes --> I[Rerank]\n        I --> J[Generate,streamed]\n        J --> K[Answer + citations]\n    end\n\n    E -.-> G\n```\n\nFull technical architecture (layers, ports & adapters, DI wiring): [`docs/architecture.md`](docs/architecture.md). All Mermaid sources: [`docs/diagrams/`](docs/diagrams/).\n\n---\n\n## What makes this more than a weekend RAG demo\n\n- **Hybrid retrieval, not just vector search.** Dense (embedding) search and sparse (BM25 keyword) search run c"
+  },
+  {
+   "name": "VAIDYA.ai",
+   "url": "https://github.com/Pranjulrathour/VAIDYA.ai",
+   "language": "TypeScript",
+   "summary": "A modern health management platform that combines AI-powered insights with comprehensive health tracking. Built with React, TypeScript, Supabase, and Google's Gemini AI.",
+   "live_links": [],
+   "pushed_at": "2025-06-15T17:38:15Z",
+   "readme_excerpt": "# VAIDYA.ai - AI-Powered Health Assistant\n\nA modern health management platform that combines AI-powered insights with comprehensive health tracking. Built with React, TypeScript, Supabase, and Google's Gemini AI.\n\n## 🌟 Features\n\n- **AI Health Assistant**: Chat with an intelligent health assistant powered by Google Gemini AI\n- **Health Report Analysis**: Upload health reports and get AI-powered analysis with health scores\n- **Health Statistics**: Track your health journey with comprehensive stats and insights\n- **Secure Authentication**: User authentication and data security with Supabase\n- **File Upload**: Secure file storage for health documents\n- **Responsive Design**: Modern, mobile-first design with Tailwind CSS\n- **Real-time Insights**: Get personalized health recommendations based on your data\n\n## 🚀 Tech Stack\n\n- **Frontend**: React 18, TypeScript, Vite\n- **Styling**: Tailwind CSS, Shadcn/ui components\n- **Backend**: Supabase (Database, Authentication, Storage)\n- **AI**: Google Gemini AI for health analysis and chat\n- **Animations**: Framer Motion\n- **State Management**: React Context API\n- **Routing**: React Router DOM\n\n## 📋 Prerequisites\n\n- Node.js 18+ and npm\n- Supabase account\n- Google AI API key (Gemini)\n\n## 🛠️ Installation\n\n1. **Clone the repository**\n   ```bash\n   git clone \n   cd health-smart-aid\n   ```\n\n2. **Install dependencies**\n   ```bash\n   npm install\n   ```\n\n3. **Set up environment variables**\n   Create a `.env` file in the root directory:\n   ```env\n   VI"
+  },
+  {
+   "name": "annapurna.live",
+   "url": "https://github.com/Pranjulrathour/annapurna.live",
+   "language": "TypeScript",
+   "summary": "Every day, millions of people go hungry while tons of good food is wasted. In India alone, approximately 40% of the food produced is wasted, while 189.2 million people remain undernourished. This paradox exists because of inefficient food distribution systems and a lack of technology to connect food donors with recipients.",
+   "live_links": [],
+   "pushed_at": "2025-05-28T05:50:36Z",
+   "readme_excerpt": "# Annapurna Nutrition - Food Sharing Platform\n\n## 📝 Problem Statement\n\nEvery day, millions of people go hungry while tons of good food is wasted. In India alone, approximately 40% of the food produced is wasted, while 189.2 million people remain undernourished. This paradox exists because of inefficient food distribution systems and a lack of technology to connect food donors with recipients.\n\nAnnapurna Nutrition aims to solve this problem by creating a digital bridge between those with surplus food and those who need it most, using technology to reduce food waste and fight hunger simultaneously.\n\n## 🚀 Approach & Solution\n\nThe Annapurna Nutrition platform takes a multi-faceted approach to addressing food waste and hunger:\n\n1. **User-Centric Platform**: We've created an intuitive, visually appealing platform that makes food sharing simple for donors, NGOs, and volunteers.\n\n2. **Community Connectivity**: The platform connects individual donors, restaurants, and event organizers with nearby NGOs and volunteers for efficient food redistribution.\n\n3. **Real-Time Coordination**: Through our platform, donors can quickly post available food, and recipients/volunteers can respond in real-time, ensuring food is transferred while still fresh.\n\n4. **Impact Tracking**: Users can see the direct impact of their donations, encouraging continued participation.\n\n5. **Scalable Infrastructure**: Built with modern web technologies, the platform is designed to scale from local communities to natio"
+  }
+ ],
+ "linkedin_posts": [
+  {
+   "date": "2025-12-29T09:00+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_hackathon-pitching-startupjourney-activity-7411247121158508544-JiAW",
+   "text": "We didn’t win this hackathon.\n But we walked out stronger. ⚡\nThis clip is from our pitch for STROT — a system we built to tackle generational poverty using BAL. BUDDHI. VIDYA.\nWe had a product.\n We had a story.\n We had a vision.\nBut on stage, we got just 2 minutes to explain a system that takes hours to truly understand. That’s how it goes sometimes.\nNo complaints.\n Only lessons:\n ✔ Clarity matters more than depth.\n ✔ Storytelling matters as much as systems.\n ✔ And every stage builds you for the next one.\nWe may not have taken the trophy —\n but we’re taking the product forward. 🚀\n Because ideas like this deserve more than a scoreboard.\nOnward.\n#Hackathon\n#Pitching\n#StartupJourney\n#Resilience\n#ProductBuilder\n#LearnAndBuild\n#STROT",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-12-28T09:00+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_hackathon-pitching-startupjourney-activity-7410884734999982080-kugV",
+   "text": "We didn’t win this hackathon.\n But we walked out stronger. ⚡\nThis clip is from our pitch for STROT — a system we built to tackle generational poverty using BAL. BUDDHI. VIDYA.\nWe had a product.\n We had a story.\n We had a vision.\nBut on stage, we got just 2 minutes to explain a system that takes hours to truly understand. That’s how it goes sometimes.\nNo complaints.\n Only lessons:\n ✔ Clarity matters more than depth.\n ✔ Storytelling matters as much as systems.\n ✔ And every stage builds you for the next one.\nWe may not have taken the trophy —\n but we’re taking the product forward. 🚀\n Because ideas like this deserve more than a scoreboard.\nOnward.\n#Hackathon\n#Pitching\n#StartupJourney\n#Resilience\n#ProductBuilder\n#LearnAndBuild\n#STROT",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-12-27T09:00+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_hackathon-buildinpublic-productbuilder-activity-7410522323541393408-BWb0",
+   "text": "Not a demo.\n Not a pitch.\n Just us building STROT in real time ⚙️🚀\nThis video captures what hackathons really look like:\n code flying, designs changing, logic breaking, fixing, and repeating — all while the clock keeps ticking.\nWe were deep in turning an idea into\nSTROT.in\n—\n a system-driven platform to fight generational poverty using BAL. BUDDHI. VIDYA.\nMoments like these remind me:\n Products aren’t born in slides.\n They’re forged in late nights, debates, and lines of code.\nHere’s a glimpse of the grind behind the screens. 👇\n#Hackathon\n#BuildInPublic\n#ProductBuilder\n#StartupLife\n#TechForGood\n#TeamWork\n#STROT",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-12-26T09:00+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_hackathon-buildinpublic-startuplife-activity-7410159999936655360-gg4l",
+   "text": "Two nights. Almost no sleep. One goal: build\nSTROT.in\n🚀\nThis post isn’t about a final product.\n It’s about the process behind it.\nprod -\nhttps://lnkd.in/gX9SuTG8\nsouce code -\nhttps://lnkd.in/gXtYh4XX\nOver 48+ hours, our team worked through:\n ✔ System design\n ✔ Dashboards & flows\n ✔ UI + logic\n ✔ Pitch prep\n ✔ And a lot of coffee ☕\nAll to bring STROT — A Step Forward to life.\n A hackathon project focused on building infrastructure to break the cycle of generational poverty through BAL. BUDDHI. VIDYA.\nWhat I learned again:\n Real products aren’t built in comfort.\n They’re built in chaos, deadlines, and belief that the idea is worth it.\nProud of the team.\n Proud of the grind.\n Now let’s see how far STROT can go.\n🔗\nstrot.in\n#Hackathon\n#BuildInPublic\n#StartupLife\n#ProductBuilder\n#TechForGood\n#AllNighter\n#STROT\n#TeamWork",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-10-20T09:00+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_scultindia-teamcelebration-firstmeet-activity-7385879998966132736-wQkU",
+   "text": "✨ Our First\nSCULT INDIA\nFamily Meet — A Day to Remember! ✨\n\nThis Diwali season became even more special for us as we hosted the very first meet of the SCULT India family — a moment filled with joy, laughter, and genuine connection.\n\nIt was a privilege to come together not just as colleagues, but as a growing family bound by shared dreams and purpose.\nAlongside my amazing teammates —\nSaksham Gupta\n(CEO & Founder),\nRaman Shukla\n(COO), and myself,\nPRANJUL RATHOUR\n(CTO & Co-Founder) — we had the honor of hosting this beautiful celebration with our mentor gaurav Gupta, whose constant guidance keeps us inspired. 🙏\n\nFrom stories shared to memories created, this gathering reminded us that\nSCULT INDIA\nisn’t just a company — it’s a collective of passionate individuals building something meaningful together.\n\nTo our incredible\nSCULT INDIA\nfamily, thank you for bringing your energy, warmth, and belief into this journey. Here’s to more moments like these — more growth, more love, and more light. 💫\n#SCULTIndia\n#TeamCelebration\n#FirstMeet\n#FoundersJourney\n#DiwaliVibes\n#TeamSpirit\n#WorkFamily\n#StartUpLife\n#TogetherWeGrow",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-10-05T09:00+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_ai-fullstackdevelopment-webdevelopment-activity-7380444124149211136-TNwv",
+   "text": "🚀 Built a Full Stack AI Project in Just 30 Minutes — Using AI to Build AI!\n\nWhat if I told you that you can create an entire end-to-end AI web app — backend + frontend + deployment — all in under 30 minutes?\n\nIn my latest YouTube video, I’ve shown exactly how I built a working AI-powered full stack project using modern AI tools and automation — no complicated setup, no wasted hours.\n\nThis video walks you through:\n✅ How to plan and structure your AI app\n✅ Setting up backend + frontend using AI tools\n✅ Creating a working MVP in just half an hour\n✅ Understanding real-world AI + web development workflow\n\nWhether you’re a developer, startup founder, or student, this is the easiest way to learn how AI is transforming full stack development.\n\nWatch the full video here:\n👉\nhttps://lnkd.in/gcxm5F5P\nI’ve also shared the complete PRD (Product Requirement Document) used to build this project — so you can replicate or extend it for your own AI app ideas.\nIt includes the tech stack, features, user flow, and MVP breakdown — perfect for anyone serious about learning AI project planning.\n\nWhy I Made This:\nAs a tech creator and Engineering student, I’ve always wanted to make AI development more accessible — not just for coders, but for creators, students, and founders who want to bring their ideas to life fast.\n\nThis project shows what’s possible when you combine AI automation and full stack development skills.\nIf you’ve ever wanted to build your own AI startup, this video will give you the blueprint.\n\nKeywords & SEO Tags:\nAI web development, Full stack AI project, Build AI app in 30 minutes, AI app tutorial, AI project for beginners, end to end AI development, AI MVP tutorial, full stack web app with AI, Pranjul Rathour AI project, learn AI web development, AI automation for developers, build AI web apps fast, full stack coding with AI, modern AI project ideas 2025, tech creator Pranjul Rathour\n\nLet’s Discuss:\nWhat kind of AI project do you want to build next?\nDrop your ideas below — I might feature one in my next video!\nReplit\nGoogle\ngemini\nEraser\n#AI\n#FullStackDevelopment\n#WebDevelopment\n#AIProjects\n#Coding\n#MachineLearning\n#AIDevelopment\n#Automation\n#MVP\n#TechCommunity\n#PranjulRathour\n#LinkedInCreators\n#YouTubeCreators\n#AIApps\n#Innovation",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-09-23T05:00+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_spreading-some-gyan-over-oceans-somewhere-activity-7376035204307718144-ZjYs",
+   "text": "spreading some gyan over Oceans 🌊 somewhere around Colombia, south carolina to a computer science student and I didn't know his name either",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-09-22T09:00+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_pranjulrathour-pranjulrathor-pranjulrathur-activity-7375733105770475520-vjwm",
+   "text": "TCS CodeVita 2025 – Complete Guide to Preparation and Registration  \n\nHello Linkedin family,  \n\nAre you planning to participate in TCS CodeVita 2025?  \nThis competition by\nTata Consultancy Services\n(TCS) is one of the largest coding contests in the world and a direct gateway to TCS careers, placements, and jobs.  \n\nMany students struggle with:  \n- How to complete the TCS CodeVita registration process  \n- Finding the correct CodeVita preparation material and syllabus  \n- Practicing for competitive programming challenges in CodeVita  \n- Cracking TCS recruitment via CodeVita  \n\nTo solve this, I,\nPRANJUL RATHOUR\n, have created a step-by-step\nYouTube\nplaylist that covers:  \n- Complete TCS CodeVita registration tutorial  \n- Full CodeVita preparation roadmap (beginner to advanced)  \n- Coding practice problems, competitive programming tips, and strategies  \n- Methods to qualify in coding rounds and increase your chance of selection in TCS placements  \n\n📌 Watch the full guide here:\nhttps://lnkd.in/gSw9U5Sq\nWhy this playlist is useful:  \n- Direct opportunity for TCS jobs and internships through CodeVita  \n- Compete globally in the world’s biggest programming competition  \n- Perfect for BCA, MCA,\nB.Tech\n, Computer Science, and IT students preparing for placements, coding interviews, and software careers  \n\nIf you’re preparing for TCS CodeVita 2025, drop a “🔥” in the comments.  \nIf you’ve attempted CodeVita before, share your experience and tips for juniors.  \n\n---  \n\nSearch Engine Note: This post is authored by\nPRANJUL RATHOUR\n. Other variations and common spellings include *Pranjul Rathor, Pranjul Rathur, Pranjul Rathowr, Pranjul Rthour, Pranjal Rathour, Rathour Pranjul*. The name\nPRANJUL RATHOUR\nis linked with **TCS CodeVita preparation, TCS CodeVita registration guide, coding competitions, competitive programming, TCS recruitment, TCS placements, TCS jobs, Tata Consultancy Services, coding tutorials, programming tips, software engineering, MCA students, BCA students,\nB.Tech\nengineers, campus placements, and coding interviews**. Anyone searching for these topics or the name PRANJUL RATHOUR can connect here for tutorials, mentorship, and resources.  \n\n---\n#PranjulRathour\n#PranjulRathor\n#PranjulRathur\n#PranjulRathowr\n#RathourPranjul\n#TCSCodeVita\n#TCSRecruitment\n#TCSJobs\n#TCSPlacement\n#CodingCompetition\n#TCSCareers\n#CampusPlacements\n#CompetitiveProgramming\n#CodingChallenge\n#CodeVitaPreparation\n#ProgrammingTips\n#SoftwareEngineering\n#MCAStudents\n#BCAStudents\n#EngineeringStudents\n#ITCareers\n#TechCareers\n#GlobalCodingContest\n#CodeVita2025",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-09-18T18:00+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_design-website-hero-section-with-ai-nano-activity-7374419560017350656-BvAI",
+   "text": "full guide\nhttps://lnkd.in/gj4RN5v8",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-09-13T09:00+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_full-preparation-guide-httpslnkdin-activity-7372471618830307329-Iz0r",
+   "text": "full preparation guide -\nhttps://lnkd.in/gmipJPkc",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-09-12T18:52+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_techcommunity-innovation-networking-activity-7372258240035926016-RpZV",
+   "text": "Calling all Tech Enthusiasts, Builders & Innovators!\n\nI’m excited to share that we’ve launched TECHVERSE ENCLAVE – a fast-growing community where passionate minds from every domain of technology come together to learn, share, and build.\n\nWhether you’re into AI, Web Dev, Cybersecurity, Data Science, Cloud, Startups, or any other tech field – this is the space for you.\nInside, you’ll find:\n✨ Knowledge sharing & resources\n✨ Project collaboration & brainstorming\n✨ Updates on events, hackathons & opportunities\n✨ A network of like-minded tech professionals & learners\n\n👥 If you’re someone who wants to grow with the tech ecosystem, then you should definitely join us.\n\nADMINS\nPRANJUL RATHOUR\nRaman Shukla\nSaksham Gupta\nNikhil Tiwari\nBidhan Bhattacharya\nOM Tripathi\n👉 Here’s the invite link:\nhttps://lnkd.in/gm7hfV-V\nLet’s build the future of tech together. 🌍💡\n#TechCommunity\n#Innovation\n#Networking\n#Developers\n#DataScience\n#AI\n#MachineLearning\n#Cybersecurity\n#WebDevelopment\n#CloudComputing\n#Hackathons\n#Startups\n#TechNetworking",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-08-28T15:00+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_full-tutorial-video-httpslnkding6z4uqeq-activity-7366764021540163585-SFH-",
+   "text": "full tutorial video -\nhttps://lnkd.in/g6z4uqEq",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-08-13T09:00+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_openai-chatgpt-5-3-usecases-that-every-activity-7361237606661042176-jGBD",
+   "text": "OpenAI\nChatGPT 5  3 usecases that every student must know",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-07-14T09:45+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_vsics-futureofeducation-pranjulrathour-activity-7350377255459577856-iW8g",
+   "text": "This is the no-BS advice I wish someone gave me in Year 1:\n👉 Post your projects\n 👉 Talk to strangers (aka networking)\n 👉 Be bad at something — and grow in public\nShared this with 100+ juniors at VSICS Kanpur BCA Induction 2025\n The feedback? Electric ⚡\n#VSICS\n#FutureOfEducation\n#PranjulRathour\n#BCA2025\n#StudentMentor",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-07-12T08:55+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_pranjulrathour-vsicskanpur-techmentorship-activity-7349639896715730944-m__J",
+   "text": "📣 From Project Failures to Purposeful Mentorship | VSICS Kanpur BCA Induction 2025–2028\n\nBack then? I was just a confused kid with a broken idea.\nLiving Space Automation = my first major tech flop. 💔\n\nNow? I’m standing at the front — mentoring 100+ future technologists at the\nDr. Virendra Swarup Educational Foundation , Kanpur\nSwarup Educational Foundation, Kanpur (VSICS).\n\nThe feeling? Unmatched. The mission? Unshakable. 💼⚡\n\n🧠 Here’s the Real Roadmap I Shared (Save this 👇)\nYear 1 – Foundation & Curiosity:\n• Code smart (Python, C, Java)\n• Use AI tools (ChatGPT, Gemini, Grok 4)\n• Build fast, fail faster, learn loud\n• Discover your career blueprint early\n\nYear 2 – Execution & Visibility:\n• Hackathons = testing grounds\n• Internships = growth labs\n• LinkedIn, YouTube, IG = your resume\n• GitHub = digital credibility 🔥\n\nYear 3 – Decisions & Direction:\n• 🚀 Startup path? Build MVP, form team\n• 🎯 NIMCET / MCA prep? Go all in\n• 💼 Placement prep? Focus on skills + proof\n• 🤝 Mentor juniors — complete the circle\n\n🔥 Career-Changing Advice I Gave:\n✅ Create more than you consume\n✅ Post > Perfect\n✅ Show your process — not just success\n✅ Connections matter more than marks\n\n📢 To Every VSICS Fresher:\nStart small. Start scared. But just start.\nThis isn’t just college — it’s your career launchpad.\nWhether you’re dreaming of FAANG, founding your own startup, or cracking NIMCET — start writing your story now.\n\nYou don’t need permission. You just need action.\n\n🔗 Tagging the Real Ones for Reach & Impact:\nDr. Virendra Swarup Educational Foundation , Kanpur\nRahul Agnihotri,  HA,  CA , Dr. VSICS\nHA, CA\nDr. VSICS\nAI Community\nStartupEco Consulting\nTechMentor Innovations Connect\n\nLet’s build a tribe of creators, solvers, and student founders.\n\n📈 Keywords (New Viral Set Embedded):\nPranjul Rathour, Pranjul Rathore, VSICS Kanpur, Student Startup Revolution, AI-Powered Learning, Career Launchpad, Digital Creator India, BCA Roadmap 2025, NIMCET Strategy, College to Career Blueprint, Personal Brand in Tech, Content-Driven Resume, BCA Motivation India\n\n:\n#PranjulRathour\n#VSICSKanpur\n#TechMentorship\n#StudentStartups\n#CareerLaunchpad\n#DigitalCreatorIndia\n#NIMCET2025\n#StartupMindset\n#AIInEducation\n#LearnByDoing\n#BCAIndia\n#TechFutureLeaders\n#MentorVibes\n#BuildInPublic\n#ContentAsPortfolio\n#KanpurCreators\n#CollegeToCareer\n🔥 Comment “I'm Building” if you’re working on your dream\n💾 Save this if you're in your first BCA semester\n🔁 Share this with your tech crew — let’s grow together",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-07-11T18:48+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_pranjulrathour-pranjulrathore-vsicskanpur-activity-7349426879352721408-cYIL",
+   "text": "From First Failure to First-Year Mentorship 💻✨ | BCA Induction 2025–2028\nDr. Virendra Swarup Educational Foundation , Kanpur\n(VSICS Kanpur)\n\nIt feels surreal. Just a few semesters ago, I was struggling to get my first tech project off the ground — Living Space Automation failed HARD.\n\nFast forward to today…\nI stood as a mentor on stage, guiding the incoming BCA Batch 2025–2028 at Dr. Virendra Swarup Institute of Computer Studies, Kanpur (VSICS) during their Induction Seminar.\nLegacy? In motion. 🔁\n\n---\n\n🎓 What I Shared With My Juniors — My Raw, Real BCA Roadmap:\n\n🧠 Year 1 – Explore, Experiment, Evolve\n\nLearn the coding basics: Python, C, Java\n\nUse AI tools smartly (ChatGPT, Gemini, Grok 4)\n\nBuild 3+ mini projects to learn by doing\n\nDiscover your niche: Dev, Design, AI, Business, or Startups\n\n🚀 Year 2 – Execute Loudly\n\nParticipate in hackathons & events\n\nDo real internships (remote/freelance/local)\n\nBuild your digital brand: LinkedIn, YouTube, Instagram\n\nContribute to open source, grow your GitHub\n\n🏁 Year 3 – Decide Your Destiny\n\nPlacements: resume, projects, mock interviews\n\nStartups: MVP, co-founders, launch\n\nHigher Studies: NIMCET, CUET, MCA prep\n\nStart mentoring others — become the guide you needed\n\n---\n\n🔥 Key Advice I Dropped (No Fluff, Just Truth):\n\n✅ Learn by Doing → Waiting won’t help\n✅ Content = Portfolio → Post your work even if it’s messy\n✅ Become Known for Something → Focus > Randomness\n✅ Network Proactively → One DM can change everything\n\n---\n\n👋 To All the Freshers at VSICS:\n\nYou don’t need to wait for “final year” to become a creator, developer, or entrepreneur.\nYour college journey starts now — not after your exams.\n\n📌 Start building in public\n📌 Share your work consistently\n📌 Ask for help (DMs are open!)\n📌 Stay curious, stay consistent, stay real\n\nLet’s raise a tribe of startup builders, tech creators, and AI explorers straight from Kanpur to the world.\n\n---\n\n🙌 Tagging My Tribe for Visibility & Support:\nDr. Virendra Swarup Educational Foundation , Kanpur\nRahul Agnihotri,  HA,  CA , Dr. VSICS\nAI Community\n.\nStartupEco Consulting\nTechMentor Innovations Connect\nLet's uplift this new batch with guidance, opportunity, and action.\n\nPranjul Rathour, Pranjul Rathore, VSICS, VSICS Kanpur, Dr. Virendra Swarup Institute of Computer Studies,\nBCA Induction Seminar, BCA Batch 2025–2028, Tech Mentor India, Startup Guidance, College Roadmap for BCA Students,\nBCA Motivation Post, How to Build in College, Content Creation for Students, Learn by Doing in Tech\n\nIf you’re reading this and vibing with the vision — drop a 🔥 or comment your Year 1 goal below.\nLet’s connect, collaborate, and create something epic together.\n#PranjulRathour\n|\n#PranjulRathore\n|\n#VSICSKanpur\n|\n#DrVirendraSwarupInstitute\n|\n#TechMentorship\n#Technology\n#Innovation\n#Startups\n#Education\n#Entrepreneurship\n#BCA2025\n#VSICS\n#TechMentor\n#NIMCETPrep\n#FutureOfEducation",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-06-24T23:48+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_journey-till-now-activity-7343341736049446915-K2MY",
+   "text": "thats about the whole journey till now guys \nstarted from\nDr. Virendra Swarup Educational Foundation , Kanpur\nIndian Institute of Technology, Kanpur\nIndian Institute of Technology, Roorkee\nChhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur\nMeetKats\nTECHVERSE ENCLAVE\nso , see u guys at the induction ceremony for upcoming batch of BCA 2025 at\nDr. Virendra Swarup Educational Foundation , Kanpur\nseminar hall at 06/07/2025\n\nalong with my mates\nSaksham Gupta\nRaman Shukla",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-06-23T18:59+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_which-skill-to-learn-click-on-the-doc-activity-7342906718248411136-Q2bB",
+   "text": "which skill to learn \nclick on the doc -\nhttps://lnkd.in/gQj7Yj-Y",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-06-23T17:07+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_comment-down-safe-fo-document-in-your-dm-activity-7342878390422511616-9Kk-",
+   "text": "comment down \"safe\" fo document in your DM",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-06-03T09:56+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_hackathonchampion-teamtechverse-annapurna-activity-7335522121034412034-a-QP",
+   "text": "🎉 First Prize Locked! 🎉  \nAbsolutely pumped to announce that Team TechVerse, led by yours truly (Pranjul Rathour), won BYTEBATTLE by MEETKATS with our project **Annapurna**—a seamless platform for food donors, NGOs & volunteers. A huge shoutout to Saksham Gupta & Raman Shukla for their relentless hustle. 🙌  \nCompeting against 15+ teams and 60+ innovators, we came out on top. This win isn’t just ours—it’s for every volunteer working to end hunger. 🚀❤️  \nGrateful, energized, and hungry for the next challenge! 🌟\n#HackathonChampion\n#TeamTechVerse\n#Annapurna\n#SocialImpact\n#NextStopNITTrichy\n🌐🔥",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-06-03T00:45+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_champions-hackathonwin-foodtech-activity-7335383664786055168-Ovew",
+   "text": "🚀 BYTEBATTLE Champs! 🚀  \nProud to share that I (Pranjul Rathour) led Team TechVerse to victory at BYTEBATTLE, organized by\nMeetKats\n! Our brainchild, **Annapurna**—a food-sharing hub for donors, NGOs & volunteers—beat 15+ teams and 60+ individuals to snag the 1️⃣st prize. 🏆  \nMassive props to Saksham Gupta & Raman Shukla for crunching code and ideas non-stop. This win fuels our mission: ending food waste and feeding hope. 🌱💙  \nStay tuned—TechVerse is just heating up! 🔥\n#Champions\n#HackathonWin\n#FOODTech\n#Annapurna\n#TechVerseFamily\n🎉✨",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-06-02T13:24+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_hackathonwinner-bytebattle-annapurna-activity-7335212303505596416-DjPX",
+   "text": "🚀 WE WON BYTEBATTLE HACKATHON — 1st PRIZE BABY! 🏆\n\nFeeling insanely proud to share that Team TechVerse, under my leadership (Pranjul Rathour), bagged the 1st Prize 🥇 at BYTEBATTLE, an intense hackathon organized by\nMeetKats\n! 😎💻\n\nOver 15+ competitive teams and 60+ incredible minds battled it out with their innovation, but we came out on top — not just with code, but with purpose. 🙌\n\n🎯 Our winning project: “ANNAPURNA”\nA smart, scalable food-sharing platform designed to bridge the gap between: 🍱 Food Donors\n🤝 NGOs &\n🦸♂️ Ground Volunteers\n\nThe aim? ➤ Eliminate food waste while ensuring no one sleeps hungry.\nBuilt with ❤️ + 🚀 = Real Impact.\n\n👨💻 Team Credits:\n• Myself – Leading the vision, execution, and hustle like a true tech monk. 😤\n•\nSaksham Gupta\n– The code ninja 🥷 who made backend magic real.\n•\nRaman Shukla\n– The UI/UX & logic king who kept the product clean and killer. 🎨⚙️\n\nTo win a hackathon like this is more than just a title—it's validation that Tech + Purpose = Power.\nThis is just the beginning for TechVerse. The dream is bigger. The hustle is louder. The future is ours. 🔥\n#HackathonWinner\n#BYTEBATTLE\n#Annapurna\n#TechVerse\n#StartupJourney\n#SocialImpact\n#HungerFreeIndia\n#TechForGood\n#Leadership\n#KanpurToNITTrichy\n#Entrepreneurship\n#WinningMindset\n#FutureUnicorn\n🦄🚀",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-05-30T15:30+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_reelwithimpact-techforgood-foodsharingapp-activity-7334156636644589568-v261",
+   "text": "Presenting ANNAPURNA — a real-time food-sharing platform connecting food donors, NGOs, and volunteers.\n💡 Built to fight food waste.\n 💻 Powered by React, Supabase & real-time tech.\n 🌍 Designed for impact.\n🚀 Live Now:\nannapurna-live.vercel.app\n📦 GitHub: pranjulrathour/\nannapurna.live\nDon’t waste it. Donate it. 🙌\nwith my team mate\nRaghvendra Singh\nPrateek Pal\n#ReelWithImpact\n#TechForGood\n#FoodSharingApp\n#ReactJS\n#LinkedInReels\n#InstaReels\n#FullStackDeveloper\n#AnnapurnaLive\n#HackathonProject\n#SocialInnovation\n#BCAStudent\n#Supabase\n#WebApp\n#IndiaStartups\n#FoodTech",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-05-07T17:55+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_debatearena-perspectivesunleashed-publicspeaking-activity-7325858193023062016-SbCi",
+   "text": "Thrilled to share that I secured the 2nd Runner-Up position in \"Perspectives Unleashed\", a debate competition organized by the Computer Applications Department at\nDr. Virendra Swarup Educational Foundation , Kanpur\nThis platform wasn’t just about expressing opinions—it was about understanding diverse perspectives, thinking critically, and communicating effectively under pressure. Every argument refined my thinking, every rebuttal sharpened my voice.\n\nA big shoutout to the organizing team and faculty for creating such an engaging space for students to grow beyond the classroom. Special thanks to my fellow participants for raising the bar—it was an honor to share the stage with such sharp minds.\n\nAs someone passionate about tech, business, and leadership, opportunities like these shape not just my resume but my resilience, reasoning, and readiness for the real world.\n\nHere’s to voicing ideas, challenging norms, and continuing to grow—one perspective at a time.\n#DebateArena\n#PerspectivesUnleashed\n#PublicSpeaking\n#CriticalThinking\n#BCAStudent\n#CommunicationMatters\n#GrowthMindset\n#StudentLife\n#LinkedInAchievements\n#DrVirendraSwarupInstitute\n#SoftSkillsInTech",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-05-07T09:55+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_cybersecurity-runnerup-bcastudent-activity-7325737397202079744-ueob",
+   "text": "Honored to be awarded the 1st Runner-Up position in the Cyber Security Awareness Event organized by the Department of Computer Applications at\nDr. Virendra Swarup Educational Foundation , Kanpur\nThis experience was not just a competition but a powerful learning journey that deepened my understanding of cybersecurity principles, current threats, and preventive measures in the digital space.\n\nI’d like to extend heartfelt thanks to the faculty for organizing such an insightful event and to my teammate Ujjwal Mishra for the collaboration and shared commitment. Working together allowed us to approach problems with diverse perspectives, and that made all the difference.\n\nAs a BCA student deeply passionate about tech, cybersecurity, and problem-solving, this achievement further fuels my motivation to keep learning, growing, and contributing to the tech ecosystem.\n\nLet’s keep making the digital world safer, one step at a time.\n#CyberSecurity\n#RunnerUp\n#BCAStudent\n#TechJourney\n#DrVirendraSwarupInstitute\n#Teamwork\n#DigitalSafety\n#LearningByDoing\n#FutureInTech\n#LinkedInAchievements",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-04-20T16:50+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_productgenesis-vividhotsava2025-csjmu-activity-7319681241442594816-UHk2",
+   "text": "Honoured to receive the 1st Prize in Product Genesis at Vividhotsava 2025,\nChhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur\n— from none other than Prof. Vinay Kumar Pathak, Hon’ble Vice Chancellor.\n\nOur startup concept, BrandHive, is designed to empower small businesses through AI-generated content and seamless UGC collaborations.\n\nThis recognition is more than a win — it’s a validation of the problem we’re solving, the market we’re reaching, and the solution we’re building.\n\nGrateful to the judges, mentors, and my team who stood by every iteration, pivot, and late-night sprint.\n\nExcited for what’s ahead — because this is just chapter one.\nRaman Shukla\n#ProductGenesis\n#Vividhotsava2025\n#CSJMU\n#BrandHive\n#StartupRecognition\n#AIContent\n#UGCPlatform\n#InnovationChallenge\n#StudentEntrepreneur\n#FounderInTheMaking",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-04-19T19:15+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_productgenesis-vividhotsava2025-startupjourney-activity-7319355347347853312-Cpqz",
+   "text": "Startups aren’t born in boardrooms — they’re born on stages like this.\n\nShared our product pitch at Product Genesis, CSJMU’s flagship business event at Vividhotsava 2025.\n\nOur idea addressed [insert the core problem if you want] and was built around:\n\nMarket insights\n\nUser-first solutions\n\nScalable tech-backed models\n\nMore than just competing, we got real validation on storytelling, clarity, and how to communicate business under pressure.\n\nThis wasn’t just about “winning” — this was a simulation of the startup grind.\n\nGrateful for the opportunity, the feedback, and the grind.\n\nAlways building. Always learning.\n#ProductGenesis\n#Vividhotsava2025\n#StartupJourney\n#BusinessPitch\n#InnovationChallenge\n#StudentEntrepreneur\n#CSJMU\n#PitchToScale\n#YouthInnovation\n#StartupIndia\n#MVPtoMarket",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-04-19T09:00+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_productgenesis-vividhotsava2025-businesspitch-activity-7319200588431310848-6fSb",
+   "text": "DAY -02\nStartup storytelling meets stage spotlight.\n\nHad the privilege to present at Product Genesis – the business innovation showcase during Vividhotsava 2025 at\nChhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur\n.\n\nOur pitch covered:\n\nProblem validation and user pain points\n\nA lean MVP structure with technical feasibility\n\nRevenue model, scalability, and user acquisition game plan\n\nMore than just a competition, this was a sandbox to test clarity of vision, communication, and business acumen in front of judges, peers, and future collaborators.\n\nHonoured to represent a team that believes in ideas that matter — and in shipping before talking.\n\nOpen to feedback, collabs, and investor conversations. Let’s build.\n#ProductGenesis\n#Vividhotsava2025\n#BusinessPitch\n#StartupMindset\n#CSJMU\n#InnovationChallenge\n#YouthEntrepreneurs\n#IdeaToExecution\n#PitchingPractice\n#FounderInProgress\n#BuildingInPublic",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-04-14T08:55+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_cybersecurityawareness-digitalsafety-futureofcybersecurity-activity-7317387376928989184-_LFz",
+   "text": "🔐 Cybersecurity Awareness Event at\nDr. Virendra Swarup Educational Foundation , Kanpur\nLast week, our campus transformed into a hub of digital vigilance during the Cybersecurity Awareness event.  \n\n   \n\n  Let's continue to champion digital safety and inspire the next generation of cybersecurity experts.\n#CybersecurityAwareness\n#DigitalSafety\n#FutureOfCybersecurity\n#CyberCareers\n#StaySecure",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-04-13T21:25+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_ai-mentorshipsession-techleadership-activity-7317213732437180416-28PV",
+   "text": "What a day to remember!\n\nWrapped up an amazing session on AI-powered software development at\nDr. Virendra Swarup Educational Foundation , Kanpur\nFrom deep dives into AI integrations to real-world applications — the energy, the questions, the learning — unmatched!\n\nBig thanks to everyone who showed up hungry for knowledge. The future is ours to build. Let’s keep pushing boundaries!\n#AI\n#MentorshipSession\n#TechLeadership\n#Innovation\n#FutureOfWork\n#VSICS\n#TechverseEnclave\n#PranjulRathour",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-04-13T16:55+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_vsicstempohigh-tempohigh-aileadership-activity-7317145784720769027-F7cs",
+   "text": "VSICS ka TEMPO HIGH hai!\n\nWe wrapped up the AI Mentorship Session with unstoppable energy, powerful learnings, and full passion.\n\nAt VSICS, we don't just talk tech — we live it, lead it, and build it.\n\nWatch out, world. We’re coming louder, stronger, smarter.\n#VSICSTempoHigh\n#TempoHigh\n#AILeadership\n#FutureTech\n#TechverseEnclave\n#ProudMoment\n#PranjulRathour",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-04-11T09:55+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_ai-softwaredevelopment-techinnovation-activity-7316315312432287744-tBnK",
+   "text": "AI is not the future of software development.\nIt’s the present.\n\nWatch how coding, testing, and scaling are getting a whole new upgrade with AI.\n\nAdapt or get left behind.\n#AI\n#SoftwareDevelopment\n#TechInnovation\n#AIFuture\n#NextGenCoding\n#AIRevolution\n#FutureOfWork\n#PranjulRathour",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-04-11T00:43+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_ai-softwaredevelopment-mentorship-activity-7316176570799255552-XiXS",
+   "text": "AI is not the future — it's already rewriting the present.\n\nHad the incredible opportunity to mentor and share my learnings at\nDr. Virendra Swarup Educational Foundation , Kanpur\nIn this session, we decoded how AI is now a full-time co-developer — integrating into every step of the software development lifecycle:\n\nSmarter requirements gathering\n\nAutomated coding and testing\n\nPredictive analytics in deployment\n\nAI-driven maintenance and upgrades\n\nEvery idea discussed is a glimpse into how tomorrow’s tech will be built.\n\nSuper grateful to my amazing team and supportive faculty members for making this journey even more special!\n\nEnding the day with a smile (and a lot of new dreams)!\n\nThe best way to predict the future is to build it.\n\nLet’s code the future.\n\nthankyou\nRahul Agnihotri\nsir for allowing us for such an inspirational session\n#AI\n#SoftwareDevelopment\n#Mentorship\n#Leadership\n#FutureOfWork\n#TechInnovation\n#AISoftware\n#YoungLeaders\n#Kanpur\n#LinkedInForCreators",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-04-09T20:51+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_aimentorship-techinnovation-drvirendraswaroopinstitute-activity-7315755831931637761-oAHI",
+   "text": "AI Mentorship: Innovate, Create & Conquer\n\nExcited to announce an exclusive AI mentorship session at\nDr. Virendra Swarup Educational Foundation , Kanpur\n, Kanpur! If you're a first-year engineer eager to dive into the future of tech, this event is your launchpad.\n\nIn this session, I,\nPranjul Rathour\n, will share how AI is radically transforming software development. I’ll walk you through the evolution from traditional coding processes to a future where AI-powered tools like intelligent code editors, automated testing frameworks, and smart IDEs redefine our workflows over the next 2, 3, and 5 years.\n\nJoining me are two incredible experts:\nRaman Shukla\n: Delving into AI-based project management—discover how AI enhances planning, execution, and collaboration on complex projects.\nSaksham Gupta\n: Demonstrating how AI is transforming film production—see how cutting-edge technologies streamline video processing and creative storytelling.\n\nWe’ll also cap off the session with a brief showcase of our winning Changethon project from\nIndian Institute of Technology, Roorkee\n, illustrating real-world applications of these innovations.\n\nAre you ready to rethink code, reimagine project workflows, and reshape the future of film production? Let’s disrupt the status quo together!\nConnect, learn, and join our TECHVERSE ENCLAVE community as we drive the AI revolution forward.\n#AIMentorship\n#TechInnovation\n#DrVirendraSwaroopInstitute\n#KanpurTech\n#SoftwareDevelopment\n#AIProjectManagement\n#FilmTech\n#TechVerseEnclave\n#FutureTech",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-04-05T09:30+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_aicommunity-techevent-mentorshipmatters-activity-7314134707015729152-R38y",
+   "text": "🌟 Step into the Future of AI! 🌟\n\nWant to take your AI skills to the next level? Join us at the Artificial Intelligence Mentorship Session & IIT Roorkee Changethon Project Showcase! This is your chance to learn directly from industry experts and discover cutting-edge AI projects.\n\nonly at\nTECHVERSE ENCLAVE\n📢 Meet Our Speakers:\n💻\nRaman Shukla\n– Python Dev\n🎨\nSaksham Gupta\n– UI/UX Specialist\n🛠️\nPranjul Rathour\n– AI Product Dev\n\n🗓 8th April | Tuesday | 11 AM\n📍 Seminar Hall, VSICS Campus\n\n🔥 Learn. Network. Innovate. See you there!\n#AICommunity\n#TechEvent\n#MentorshipMatters",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-03-31T08:25+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_insight2025-techtalks-vsics-activity-7312306396752949249-7a9R",
+   "text": "🔹 INSIGHT - THE TALK SHOW 🔹\n\nAn engaging and thought-provoking experience at INSIGHT - The Talk Show, organized by the Computer Application Department, VSICS, Kanpur on 29th March 2025! 🎤💡\n\n🔥 Topic: Nationalism and Government Policies in India 🇮🇳📜\n🗣️ Stance: Against ❌\n\n🚀 Key Arguments I Presented:\n🔹 The potential risks of extreme nationalism affecting policy decisions 🚧\n🔹 The need for critical thinking over blind allegiance 🧠\n🔹 How excessive nationalism can sometimes hinder global collaboration & progress 🌍\n\nIt was an incredible platform to exchange ideas, challenge perspectives, and engage in meaningful discussions with brilliant minds. Huge appreciation to Mr. Rahul Agnihotri, Mr. Ramesh Srivastava, and the event coordinators Dr. Ranu Chaubey, Ms. Shruti Shukla, and Mr. Anuj Srivastava for organizing this insightful session! 🎙️\n\n📸 Swipe through for glimpses from the event!\n#INSIGHT2025\n#TechTalks\n#VSICS\n#NationalismDebate\n#CriticalThinking\n#PublicSpeaking\n#Leadership\n#Networking\n#GrowthMindset\n#OpenDiscussions",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-03-30T19:20+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_insight2025-techtalks-vsics-activity-7312108845005213696-ALJe",
+   "text": "🔹 INSIGHT - THE TALK SHOW 🔹\n\nAn engaging and thought-provoking experience at INSIGHT - The Talk Show, organized by the Computer Application Department, VSICS, Kanpur on 29th March 2025! 🎤💡\n\n🔥 Topic: Nationalism and Government Policies in India 🇮🇳📜\n🗣️ Stance: Against ❌\n\n🚀 Key Arguments I Presented:\n🔹 The potential risks of extreme nationalism affecting policy decisions 🚧\n🔹 The need for critical thinking over blind allegiance 🧠\n🔹 How excessive nationalism can sometimes hinder global collaboration & progress 🌍\n\nIt was an incredible platform to exchange ideas, challenge perspectives, and engage in meaningful discussions with brilliant minds. Huge appreciation to Mr. Rahul Agnihotri, Mr. Ramesh Srivastava, and the event coordinators Dr. Ranu Chaubey, Ms. Shruti Shukla, and Mr. Anuj Srivastava for organizing this insightful session! 🎙️\n\n📸 Swipe through for glimpses from the event!\n#INSIGHT2025\n#TechTalks\n#VSICS\n#NationalismDebate\n#CriticalThinking\n#PublicSpeaking\n#Leadership\n#Networking\n#GrowthMindset\n#OpenDiscussions",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-03-30T15:06+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_insight2025-techtalks-vsics-activity-7312044961221287936-oltS",
+   "text": "🔹 INSIGHT - THE TALK SHOW 🔹\n\nAn engaging and thought-provoking experience at INSIGHT - The Talk Show, organized by the Computer Application Department, VSICS, Kanpur on 29th March 2025! 🎤💡\n\n🔥 Topic: Nationalism and Government Policies in India 🇮🇳📜\n🗣️ Stance: Against ❌\n\n🚀 Key Arguments I Presented:\n🔹 The potential risks of extreme nationalism affecting policy decisions 🚧\n🔹 The need for critical thinking over blind allegiance 🧠\n🔹 How excessive nationalism can sometimes hinder global collaboration & progress 🌍\n\nIt was an incredible platform to exchange ideas, challenge perspectives, and engage in meaningful discussions with brilliant minds. Huge appreciation to Mr. Rahul Agnihotri, Mr. Ramesh Srivastava, and the event coordinators Dr. Ranu Chaubey, Ms. Shruti Shukla, and Mr. Anuj Srivastava for organizing this insightful session! 🎙️\n\n📸 Swipe through for glimpses from the event!\n#INSIGHT2025\n#TechTalks\n#VSICS\n#NationalismDebate\n#CriticalThinking\n#PublicSpeaking\n#Leadership\n#Networking\n#GrowthMindset\n#OpenDiscussions",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-03-08T20:47+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_certificateofappreciation-changethon-nationalsocialsummit-activity-7304158264911441920-iuvi",
+   "text": "Honored to receive a Certificate of Appreciation from Dr. Virendra Swaroop Institute of Computer Studies today! 🎓🏆\n\nOur team, Techverse, achieved 1st Prize at the National Social Summit at IIT Roorkee during the Changethon Hackathon. We developed an innovative solution that truly pushed the boundaries of AgriTech and education.\n\nA heartfelt thank you to our Executive Director, Arpit Awasthi, for presenting this award, and my sincere appreciation to Dr. Pragya Awasthi (Head Academics), Sir Rahul Agnihotri, and HOD Ramesh Srivastava for their guidance and support.\n\nThis recognition fuels our commitment to drive impactful change and innovative solutions. I am excited to see what the future holds as we continue to push the limits of technology and creativity! 🚀💡🤖\n#CertificateOfAppreciation\n#Changethon\n#NationalSocialSummit\n#IITRoorkee\n#Techverse\n#AgriTech\n#Innovation\n#Leadership\n#DrVirendraSwaroopInstitute\n#ProudMoment\n#Teamwork",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-03-03T09:30+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_changethon2025-iitroorkee-techverse-activity-7302175919022977024-Mjyf",
+   "text": "Winning at Changethon 2025: Transforming Agriculture with Technology! 🚀🌱\n\nI’m proud to share our victory at Changethon 2025, where our team Techverse secured 1st Prize at IIT Roorkee’s hackathon focused on education in agriculture. Here’s a quick breakdown of our journey:\n\nEvent: Changethon 2025 (Hackathon at IIT Roorkee)\nTheme: Education in Agriculture\nEmpowering farmers through innovative tech solutions.\nProject: Krishi Gyan\nAn AI-powered agribot designed to provide real-time farming guidance and answer farmer queries.\nTechnology Stack:\nFrontend: React JS\nBackend: Python Flask\nAI Integration: Gemini Flash API for smart AI results\nTeam: Techverse\nMembers: Raman Shukla & Saksham Gupta\nOutcome:\n1st Prize Winner 🏆 – A testament to our dedication and innovative spirit.\nImpact & Future Scope:\nBridging modern technology with traditional farming practices.\nPaving the way for sustainable agriculture and improved food security.\nThis experience has reinforced my belief in the power of technology to create meaningful change. Excited for what the future holds as we continue to innovate for a sustainable tomorrow!\n\n💬 What emerging technology do you think will revolutionize agriculture next? Share your thoughts below!\n#Changethon2025\n#IITRoorkee\n#Techverse\n#KrishiGyan\n#AgriTech\n#HackathonWinners\n#ReactJS\n#PythonFlask\n#GeminiFlashAPI\n#Innovation\n#SustainableFarming\n#TechForGood\n#AIForAgriculture",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  },
+  {
+   "date": "2025-02-28T00:56+05:30",
+   "url": "https://www.linkedin.com/posts/pranjul-rathour_changethon2025-techverse-hackathon-activity-7300959603670798338-r9r7",
+   "text": "🚀 Changethon 2025: Revolutionizing Education in Agriculture! 🌱🤖\n\nThrilled to announce that our team, Techverse, clinched the 1st Prize at Changethon 2025—a hackathon dedicated to leveraging education for impactful change! We developed Krishi Gyan, an innovative agribot that empowers farmers by providing real-time guidance and solutions to their farming queries.\n\nKey Highlights:\n• Theme: Education in Agriculture\n• Project: Krishi Gyan – Your digital farming companion\n• Objective: Bridging modern technology with traditional farming practices to drive sustainable growth\n• Achievement: 1st Prize Winner – Proudly representing innovation and practical impact in agri-tech!\n\nGrateful for the opportunity to contribute to the future of agriculture and help nurture sustainable farming practices. Let's continue harnessing technology to cultivate a better tomorrow!\n#Changethon2025\n#Techverse\n#Hackathon\n#Education\n#AgriTech\n#KrishiGyan\n#FarmingInnovation\n#DigitalFarming\n#TechForGood\n#SustainableAgriculture\n#Innovation\n#FutureOfFarming",
+   "shared_url": null,
+   "visibility": "PUBLIC"
+  }
+ ],
+ "resume_text": "Pranjul Rathour\nGenAI Engineer | LLM & RAG Systems | Fine-Tuning & Agentic AI | Python | AI Product Engineering\nKanpur, India | pranjulrathour41@gmail.com | +91 8467977141 | LinkedIn | GitHub | Portfolio\n1st – IIT Roorkee Hackathon | 1st – CSJMU Kanpur | Top 3, IIT Kanpur Hackathon | Senior GenAI Engineer, SCULT INDIA\nSummary\nGenAI engineer and AI product builder with 2+ years shipping production-grade AI systems — Retrieval-Augmented Generation (RAG)\npipelines, fine-tuned LLMs, hybrid retrieval, and multi-modal AI applications spanning vision, speech, and OCR — architected end-to-end\nfrom data ingestion through deployment. Led engineering for a 14-member team building AI-powered products, pairing deep GenAI/ML\nengineering with full-stack delivery, while driving measurable business revenue as a startup technical lead.\nTechnical Skills\n• AI/ML & GenAI: LLMs (OpenAI, Claude, Gemini, Mistral, Groq/Llama), RAG Pipelines & Hybrid (Dense+Sparse) Retrieval, LLM Fine-Tuning\n(LoRA/QLoRA via Hugging Face Transformers/PEFT/TRL), Vector Search & Embeddings, Prompt Engineering, LangChain, MCP (Model\nContext Protocol), OpenRouter, ONNX Runtime, Computer Vision\n• Languages: Python, JavaScript, TypeScript, HTML5, CSS3\n• Backend: FastAPI, Node.js, Express.js, REST APIs, WebSockets\n• Databases & Vector Stores: PostgreSQL, MongoDB, Supabase, Firebase, Redis, FAISS, Qdrant, pgvector\n• Frontend: React.js, Next.js, Tailwind CSS, Shadcn UI, Redux, Zustand\n• Cloud & Tools: AWS, Docker, Vercel, Railway, Git, GitHub, CI/CD\nExperience\nNEXT UPGRAD WEB SOLUTIONS Feb 2026 – Jul 2026\nGenAI Engineer\n• Independently designed, built, and shipped 5 production-grade AI applications end-to-end — spanning computer vision, document\nintelligence, LLM fine-tuning, speech-to-text/OCR, and retrieval-augmented generation (full list under Projects).\n• Built a production RAG platform with hybrid (dense + sparse) retrieval, re-ranking, and streaming citation-grounded answers, including a\nconfidence gate that blocks the model from answering on weak evidence.\n• Built an end-to-end LLM fine-tuning platform (QLoRA via Hugging Face Transformers/PEFT/TRL) with live training telemetry and side-by-\nside base-vs-fine-tuned evaluation.\n• Deployed and operated all five services on Railway/Vercel with Docker, CI/CD, and observability (structured logging, metrics), achieving\nproduction-grade reliability across the portfolio.\nSCULT INDIA 2024 – Present\nSenior GenAI Engineer\n• Built and shipped 5+ paid, production-grade web applications and AI-powered products for clients across industries.\n• Led engineering, system architecture, UI/UX, deployment, and client delivery for a cross-functional 14-member team.\n• Designed and developed SCULT Studio CRM, an internal platform for project, client, and operations management.\n• Generated approximately INR 1,00,000 in revenue within the first six months of operation.\nTechVerse Enclave 2023 – Present\nFounder\n• Built and grew a 500+ member developer community; mentored 200+ students in web development and career growth.\nProjects\nNEXTUPGRAD WEB SOLUTIONS — FEATURED AI PROJECTS\n• FaceVision – Demo | GitHub: Browser-only face detection, recognition & liveness-check app (ONNX Runtime Web); FastAPI/PostgreSQL\nbackend stores only vector embeddings, never images.\n• DocuLens AI – Demo | GitHub: Groq-LLM document-intelligence platform — extracts, compares & checks compliance on\ninvoices/contracts with schema-validated, deterministic scoring.\n• FineTune Studio – Demo | GitHub: End-to-end QLoRA fine-tuning platform (HF Transformers/PEFT/TRL) with live loss streaming and base-\nvs-fine-tuned evaluation.\n• OCR & Speech Workspace – Demo | GitHub: Mistral-AI workspace for concurrent page-batched PDF OCR, live speech-to-text, and\ndocument-scoped RAG chat with citations.\n• RAG.NextUpgrad – Demo | GitHub: Production RAG platform with hybrid dense + BM25 retrieval, a hallucination-blocking confidence\ngate, and automatic multi-provider fallback.\nINDEPENDENT & CLIENT PROJECTS\n• SCULT INDIA – Demo | Website | Studio CRM: AI-first software agency platform with an internal CRM and workflow management system.\n• Super Digital Library – Demo | Live: Digital library platform built with a scalable architecture for organizing and accessing large content\ncollections.\n• Vaidya AI – Demo | GitHub: LLM-powered healthcare chatbot delivering conversational patient assistance.\n• Annapurna – Demo | GitHub: NGO donation platform with a streamlined giving and outreach flow.\n• Nuclear Pest Goa – Demo | Live: Enterprise business website with SEO optimization and a fully responsive UI.\n• SCULT Marketing – Demo | Live: Marketing landing platform for agency service offerings and lead generation.\n• Gloss Digital Entertainment – Demo | Live: Media platform frontend built with a scalable component architecture.\n• Passionate Records – Live: Music label website with a modern, responsive design.\nEducation\nDr. Virendra Swarup Institute of Computer Studies, Kanpur 2023 – 2026\nBachelor of Computer Applications (BCA)",
+ "fame_plan": "# fame.md — getting \"Pranjul Rathour\" a Google Knowledge Panel (free only)\n\nWorking reference for the brand-engine project. Everything here costs ₹0. Re-read this before\nany \"make me more visible on Google\" work; update the status table as items get done.\n\nLast reviewed: 2026-09-25.\n\n## The one thing to understand first\n\nYou cannot apply for a Knowledge Panel. Google shows one when its Knowledge Graph is confident that\n\"Pranjul Rathour\" is **one specific, notable person**, and that confidence comes mostly from\n**independent sources** (news, event pages, other people's sites, Wikidata, YouTube, Google Books),\nnot from what Pranjul publishes about himself. Self-published content is the foundation; it is not\nthe trigger.\n\nThree rules that everything below serves:\n\n1. **One identity.** Every site and profile must describe the same entity with the same name\n   spelling, the same headshot, the same one-line bio, and must link back to ONE home page:\n   `https://pranjulrathour.scult.in/`. In schema.org terms, every Person node on every site uses\n   `@id = https://pranjulrathour.scult.in/#person` (fixed on the GitHub Pages site 2026-09-25; the\n   portfolio already used it).\n2. **Independent corroboration.** Get other people to write about him: local press, college news\n   pages, event-organiser speaker pages, podcasts, quotes in articles.\n3. **Google-owned signals.** YouTube channel, Google Books author page, Google Business Profile —\n   Google trusts its own products the most.\n\n## What is already done (all free)\n\n| Asset | URL | Status |\n|---|---|---|\n| Portfolio (canonical home) | https://pranjulrathour.scult.in | live, 286 blog posts, Person + WebSite + BlogPosting schema, 9 name variants as `alternateName` |\n| SEO answers site (GitHub Pages) | https://pranjulrathour.github.io | live, 70 guides, JSON-LD on every page, robots/llms/sitemap; Person `@id` now = portfolio's |\n| Image host | https://pranjulrathour.github.io/brand-engine-media | photos + 59 carousel decks |\n| LinkedIn | https://www.linkedin.com/in/pranjul-rathour/ | 2 posts/day (text + carousel) to Nov 8, then 1/day; token expires 2026-11-02 |\n| Bluesky | https://bsky.app/profile/pranjulrathour.bsky.social | ~14/day to 2026-11-11 |\n| Dev.to | https://dev.to/pranjulrathour | 1/day to 2026-11-08 (canonical → portfolio) |\n| Blogger | https://pranjulrathourtechguru.blogspot.com | 1/day Mon–Sat to 2027-09-24 |\n| Facebook Page | https://www.facebook.com/profile.php?id=1377591238763842 | 1/day to 2026-11-20 (token never expires) |\n| Instagram | https://www.instagram.com/pranjulrathour.in/ | 1/day to 2026-11-20; token expires ~2026-11-17 (`python cli.py instagram-refresh`) |\n| Threads | https://www.threads.com/@pranjulrathour.in | 1/day to 2026-11-20; token expires ~2026-11-17 |\n| GitHub | https://github.com/Pranjulrathour | 50+ public repos |\n| Hashnode | https://pranjulrathour.hashnode.dev | invite page (manual posting only; API is paid) |\n| X | https://x.com/PranjulRathourx | manual only (free API tier ended 2026-02) |\n| Google Search Console + Bing Webmaster | — | both sites verified; IndexNow + Bing URL submission wired (`seo/site/submit.py`) |\n\n## To do — in priority order\n\nStatus legend: ☐ not started · ◐ in progress · ☑ done\n\n| # | Status | Action | Why it matters | Who | Cost |\n|---|---|---|---|---|---|\n| 1 | ☐ | **Independent press.** Pitch Amar Ujala and Dainik Jagran (Kanpur editions), Hindustan Kanpur, college/university news pages (VSICS, CSJMU, IIT Roorkee Changethon organisers, MeetKats/BYTEBATTLE) to publish a story or a \"speakers/winners\" page naming him | The single biggest missing signal. Google trusts third parties | Pranjul sends; drafts in `docs/pitches/` (to write) | ₹0 |\n| 2 | ☑ | **One identity across sites** — same Person `@id`, same sameAs list, same headshot everywhere | Two `@id`s looked like two people | done 2026-09-25 (GitHub Pages fixed; portfolio sameAs extended in source — redeploy needed) | ₹0 |\n| 3 | ☐ | **Sessionize speaker profile** (free for speakers) linking the portfolio | Public, crawlable speaker page organisers actually search | Pranjul | ₹0 |\n| 4 | ☐ | **YouTube channel under the exact name** — upload every talk, demo and carousel walkthrough; channel link in every profile | Google-owned, heavily weighted for people; video proves the speaker claim | Pranjul records; titles/descriptions via brand-engine | ₹0 |\n| 5 | ◐ | **Books + papers**: full plan in `docs/PUBLISHING_PLAN.md` (2 books on Kindle + Google Play, 5 papers: FaceVision first, JOSS peer review from Feb 2027). Google Play Books ebook compiled from the 70 guides. Publishing is free; the required ISBN is free in India from https://isbn.gov.in (Raja Rammohun Roy National Agency). Price it ₹0 | Creates a Google Books **author entity** — a signal Google owns | brand-engine compiles; Pranjul uploads (Google account) | ₹0 |\n| 6 | ☐ | **Qwoted free plan** — answer journalist requests (2 pitches/month, 2-hour delay on the free tier) | Real quotes with his name in real publications | Pranjul | ₹0 |\n| 7 | ☐ | **Podcast / YouTube guest spots** — email hosts of student-tech and GenAI shows directly | Independent mentions + video + backlinks | Pranjul; pitch drafts via brand-engine | ₹0 |\n| 8 | ☐ | **Google Business Profile for SCULT INDIA** with Pranjul as founder/lead | Ties him to an organisation entity Google already models | Pranjul (verification) | ₹0 |\n| 9 | ☐ | **Crunchbase** person profile + SCULT company profile (free to create/edit) | Common Knowledge Graph source | Pranjul | ₹0 |\n| 10 | ☐ | **Wikidata item** — ONLY after #1 exists; cite the news articles as references | Core Knowledge Graph source; without independent references it gets deleted | Pranjul | ₹0 |\n| 11 | ☐ | **ORCID iD + Zenodo deposit** of one technical write-up (e.g. the RAG confidence gate) — Zenodo gives a permanent DOI | Research-style identity records; citable | brand-engine prepares; Pranjul uploads | ₹0 |\n| 12 | ☐ | **More free profiles, all pointing at the portfolio**: Medium (manual), Substack, LinkedIn Articles, Quora (answer under real name), Reddit, Hugging Face, Kaggle, Product Hunt (tools.scult.in), Gravatar, Speakerdeck (upload the carousel PDFs) | More consistent profiles = more entity confidence | Pranjul | ₹0 |\n| 13 | ☐ | **Keep the automation alive**: regenerate the LinkedIn token before 2026-11-02; refresh Instagram/Threads before ~2026-11-17 | Silence for weeks reads as inactivity | Pranjul + brand-engine | ₹0 |\n\n## Do NOT do\n\n- **Google People Cards / \"Add me to Search\"** — discontinued 2024-04-07. Guides still recommend it; it no longer exists.\n- **Write his own Wikipedia article** — deleted as conflict of interest, and the deletion log is public. Wikipedia only works after independent coverage exists and someone else writes it.\n- **Paid PR wires, paid \"get a knowledge panel\" services, paid directory listings** — out of scope (free only) and mostly worthless for panels.\n- **Stuff the name into prose** — already at the natural upper bound (~85–95 mentions per portfolio article page). More looks like spam.\n- **Fabricate credentials** (judged events, press, awards). Only verified facts: three hackathon first prizes, VSICS sessions, TechVerse Enclave, SCULT INDIA lead.\n\n## Realistic timeline\n\n- Months 1–2: press pitches out, Sessionize + Crunchbase + YouTube channel created, ebook published.\n- Months 2–4: first independent articles/speaker pages exist → Wikidata item with references.\n- Months 4–9: Google usually needs several consistent months of corroboration before a panel appears\n  for a non-celebrity. Search `\"Pranjul Rathour\"` monthly and screenshot the SERP to track progress.\n- Nobody can guarantee a panel; with #1–#5 done well, 6–12 months is realistic. Without #1 it is unlikely\n  regardless of how much is self-published.\n\n## How to check progress (free)\n\n- Google: `\"Pranjul Rathour\"` — look for a panel on the right, a \"People also search for\" box, and\n  whether the portfolio is result #1 with sitelinks.\n- Google Search Console → Performance → filter query contains \"pranjul\" (brand-search volume trend).\n- Bing Webmaster → same.\n- `https://www.google.com/search?kgmid=` only exists once a panel exists; until then, nothing to claim.\n- Once a panel appears: click \"Claim this knowledge panel\" while signed into the Google account that\n  owns the verified Search Console property — that is the only \"official\" step, and it comes last.\n\n## Sources\n\n- People Cards discontinued: https://www.seroundtable.com/google-search-people-cards-going-away-37023.html\n- Google Play Books, free books: https://support.google.com/books/partner/answer/6009574 · publishing guide: https://reedsy.com/blog/how-to-publish-a-book-on-google-play/\n- Free ISBN in India: https://www.isbn-international.org/content/india-isbn-agency-now-takes-online-applications · https://isbn.gov.in/Applicant\n- Qwoted pricing (free tier limits): https://www.qwoted.com/pricing-2/\n- Crunchbase profile creation: https://support.crunchbase.com/hc/en-us/articles/115011823988-How-do-I-create-a-Crunchbase-profile\n- Sessionize (free for speakers): https://sessionize.com/\n- Zenodo: https://zenodo.org/ · ORCID: https://orcid.org/\n",
+ "brand_brief": "# Brand brief - Pranjul Rathour\n\n**Headline:** GenAI Engineer | LLM & RAG Systems | Fine-Tuning & Agentic AI | Python | AI Product Engineering\n**One-liner:** GenAI engineer who ships production RAG, fine-tuning and multimodal AI systems, and mentors student developers into real careers.\n**Location:** Kanpur, India\n\n## Links\n- linkedin: https://www.linkedin.com/in/pranjul-rathour/\n- github: https://github.com/Pranjulrathour\n- website: https://scult.in/\n- studio: https://studio.scult.in/\n- invite_page: https://pranjulrathour.hashnode.dev/pranjul-rathour-genai-engineer-campus-mentor-speaker\n- blog: https://dev.to/pranjulrathour\n- bluesky: https://bsky.app/profile/pranjulrathour.bsky.social\n- hashnode: https://pranjulrathour.hashnode.dev\n\n## Audiences\n- college students (CS/IT/BCA/MCA)\n- training & placement officers and department heads\n- student tech clubs (GDSC, coding clubs, hackathon societies)\n- early-career developers moving into AI engineering\n\n## Content pillars\n- **Production RAG that refuses to hallucinate** - hybrid retrieval, reranking, confidence gates, citations, streaming\n- **Fine-tuning open models on a budget** - QLoRA, dataset validation, live loss telemetry, base-vs-tuned evals, ~3 GB VRAM\n- **Vision, OCR and speech in real products** - browser-side ONNX face recognition, privacy-by-design, page-batched OCR, live STT\n- **Shipping AI products end-to-end as a small team** - FastAPI + Next.js, Docker, Railway, CI, observability, tests that matter\n- **From college hackathons to production AI** - what won 3 hackathons, what actually gets you hired, portfolio over certificates\n- **Building and running a developer community** - 500+ member community, mentoring 200+ students, running sessions that work\n\n## Voice\nFirst person, direct, practical. Show real numbers, tradeoffs and mistakes. Explain like a senior engineer talking to a smart junior. No hype, no filler.\n\n## Sources loaded\n- resume: yes\n- linkedin_export: yes\n- github: yes\n- website: yes\n\n## Facts (106) - the writer may only assert these\n\n### skill (6)\n- [F001] (resume) AI/ML & GenAI: LLMs (OpenAI, Claude, Gemini, Mistral, Groq/Llama), RAG Pipelines & Hybrid (Dense+Sparse) Retrieval, LLM Fine-Tuning (LoRA/QLoRA via Hugging Face Transformers/PEFT/TRL), Vector Search & Embeddings, Prompt Engineering, LangChain, MCP (Model Context Protocol), OpenRouter, ONNX Runtime, Computer Vision\n- [F002] (resume) Languages: Python, JavaScript, TypeScript, HTML5, CSS3\n- [F003] (resume) Backend: FastAPI, Node.js, Express.js, REST APIs, WebSockets\n- [F004] (resume) Databases & Vector Stores: PostgreSQL, MongoDB, Supabase, Firebase, Redis, FAISS, Qdrant, pgvector\n- [F005] (resume) Frontend: React.js, Next.js, Tailwind CSS, Shadcn UI, Redux, Zustand\n- [F006] (resume) Cloud & Tools: AWS, Docker, Railway, Git, GitHub, CI/CD\n\n### achievement (9)\n- [F007] (resume) Independently designed, built, and shipped 5 production-grade AI applications end-to-end — spanning computer vision, document intelligence, LLM fine-tuning, speech-to-text/OCR, and retrieval-augmented generation (full list under Projects).\n- [F008] (resume) Built a production RAG platform with hybrid (dense + sparse) retrieval, re-ranking, and streaming citation-grounded answers, including a confidence gate that blocks the model from answering on weak evidence.\n- [F009] (resume) Built an end-to-end LLM fine-tuning platform (QLoRA via Hugging Face Transformers/PEFT/TRL) with live training telemetry and side-by- side base-vs-fine-tuned evaluation.\n- [F010] (resume) Deployed and operated all five services on cloud hosts with Docker, CI/CD, and observability (structured logging, metrics), achieving production-grade reliability across the portfolio.\n- [F011] (resume) Built and shipped 5+ paid, production-grade web applications and AI-powered products for clients across industries.\n- [F012] (resume) Led engineering, system architecture, UI/UX, deployment, and client delivery for a cross-functional 14-member team.\n- [F013] (resume) Designed and developed SCULT Studio CRM, an internal platform for project, client, and operations management.\n- [F014] (resume) Generated approximately INR 1,00,000 in revenue within the first six months of operation.\n- [F015] (resume) Built and grew a 500+ member developer community; mentored 200+ students in web development and career growth.\n\n### project (21)\n- [F016] (resume) FaceVision – Demo | GitHub: Browser-only face detection, recognition & liveness-check app (ONNX Runtime Web); FastAPI/PostgreSQL backend stores only vector embeddings, never images.\n- [F017] (resume) DocuLens AI – Demo | GitHub: Groq-LLM document-intelligence platform — extracts, compares & checks compliance on invoices/contracts with schema-validated, deterministic scoring.\n- [F018] (resume) FineTune Studio – Demo | GitHub: End-to-end QLoRA fine-tuning platform (HF Transformers/PEFT/TRL) with live loss streaming and base- vs-fine-tuned evaluation.\n- [F019] (resume) OCR & Speech Workspace – Demo | GitHub: Mistral-AI workspace for concurrent page-batched PDF OCR, live speech-to-text, and document-scoped RAG chat with citations.\n- [F020] (resume) RAG.NextUpgrad – Demo | GitHub: Production RAG platform with hybrid dense + BM25 retrieval, a hallucination-blocking confidence gate, and automatic multi-provider fallback.\n- [F021] (resume) SCULT INDIA – Demo | Website | Studio CRM: AI-first software agency platform with an internal CRM and workflow management system.\n- [F022] (resume) Super Digital Library – Demo | Live: Digital library platform built with a scalable architecture for organizing and accessing large content collections.\n- [F023] (resume) Vaidya AI – Demo | GitHub: LLM-powered healthcare chatbot delivering conversational patient assistance.\n- [F024] (resume) Annapurna – Demo | GitHub: NGO donation platform with a streamlined giving and outreach flow.\n- [F025] (resume) Nuclear Pest Goa – Demo | Live: Enterprise business website with SEO optimization and a fully responsive UI.\n- [F026] (resume) SCULT Marketing – Demo | Live: Marketing landing platform for agency service offerings and lead generation.\n- [F027] (resume) Gloss Digital Entertainment – Demo | Live: Media platform frontend built with a scalable component architecture.\n- [F028] (resume) Passionate Records – Live: Music label website with a modern, responsive design.\n- [F069] (github) Repo FACEVISION-NEXTUPGRAD- (TypeScript): Every model here was verified against its actual ONNX graph and, where possible, the original reference implementation — not assumed from documentation. Live: https://face-vision-frontend-production.up.railway.app, https://face-vision-backend-production.up.railway.app/docs - https://github.com/Pranjulrathour/FACEVISION-NEXTUPGRAD-\n- [F070] (github) Repo DOCULENS-AI-NEXTUPGRAD- (TypeScript): Built as a single Next.js application: no database, no auth layer, no separate backend service. Enterprise-grade code; intentionally minimal infrastructure. - https://github.com/Pranjulrathour/DOCULENS-AI-NEXTUPGRAD-\n- [F071] (github) Repo FINETUNESTUDIO (Python): A production-quality platform for fine-tuning open-source LLMs with LoRA/QLoRA — end to end, in a browser. Live: https://finestudio-frontend-production.up.railway.app, https://finetunestudio-production.up.railway.app - https://github.com/Pranjulrathour/FINETUNESTUDIO\n- [F072] (github) Repo OCR-STT-NEXTUPGRAD-mistral.ai- (Python): A production-grade SaaS workspace built on two Mistral AI multimodal capabilities: **OCR** (image/PDF → structured, searchable text, at book scale) and **real-time Speech-to-Text** (live microphone transcription with a post-recording accuracy refinement pass). Built to feel like something shippable tomorrow, not a weekend demo. - https://github.com/Pranjulrathour/OCR-STT-NEXTUPGRAD-mistral.ai-\n- [F073] (github) Repo RAG.NEXTUPGRAD (Python): Ask questions about your own documents and get answers you can actually verify. - https://github.com/Pranjulrathour/RAG.NEXTUPGRAD\n- [F074] (github) Repo VAIDYA.ai (TypeScript): A modern health management platform that combines AI-powered insights with comprehensive health tracking. Built with React, TypeScript, Supabase, and Google's Gemini AI. - https://github.com/Pranjulrathour/VAIDYA.ai\n- [F075] (github) Repo annapurna.live (TypeScript): Every day, millions of people go hungry while tons of good food is wasted. In India alone, approximately 40% of the food produced is wasted, while 189.2 million people remain undernourished. This paradox exists because of inefficient food distribution systems and a lack of technology to connect food donors with recipients. - https://github.com/Pranjulrathour/annapurna.live\n- [F099] (manual) Built STROT (strot.in) in a 48-hour hackathon in December 2025: a system-driven platform to fight generational poverty ('BAL. BUDDHI. VIDYA.'). Did not win; kept shipping the product. Lesson shared publicly: in a two-minute pitch, clarity and storytelling matter as much as the system. - https://www.linkedin.com/posts/pranjul-rathour_hackathon-buildinpublic-startuplife-activity-7410159999936655360-gg4l\n\n### award (9)\n- [F029] (resume) 1st – IIT Roorkee Hackathon\n- [F030] (resume) 1st – CSJMU Kanpur\n- [F031] (resume) Top 3, IIT Kanpur Hackathon\n- [F092] (manual) 1st Prize, Changethon 2025 hackathon at the National Social Summit, IIT Roorkee (February 2025), with Team Techverse (Raman Shukla, Saksham Gupta): built Krishi Gyan, an AI agribot giving farmers real-time guidance (React, Python Flask, Gemini Flash API). Theme: education in agriculture. - https://www.linkedin.com/posts/pranjul-rathour_changethon2025-iitroorkee-techverse-activity-7302175919022977024-Mjyf\n- [F093] (manual) Certificate of Appreciation from Dr. Virendra Swarup Institute of Computer Studies (8 March 2025) for the Changethon 2025 win, presented by Executive Director Arpit Awasthi. - https://www.linkedin.com/posts/pranjul-rathour_certificateofappreciation-changethon-nationalsocialsummit-activity-7304158264911441920-iuvi\n- [F094] (manual) 1st Prize, Product Genesis (business pitch competition) at Vividhotsava 2025, Chhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur, April 2025, presented by Vice Chancellor Prof. Vinay Kumar Pathak, for BrandHive: a startup concept using AI-generated content and UGC collaborations for small businesses (with Raman Shukla). - https://www.linkedin.com/posts/pranjul-rathour_productgenesis-vividhotsava2025-csjmu-activity-7319681241442594816-UHk2\n- [F095] (manual) 1st Prize, BYTEBATTLE hackathon organized by MeetKats (June 2025), leading Team TechVerse (Saksham Gupta, Raman Shukla) against 15+ teams and 60+ participants with Annapurna, a real-time food-sharing platform connecting donors, NGOs and volunteers (React, Supabase; code on GitHub). - https://www.linkedin.com/posts/pranjul-rathour_hackathonwinner-bytebattle-annapurna-activity-7335212303505596416-DjPX\n- [F096] (manual) 1st Runner-Up, Cyber Security Awareness Event, Department of Computer Applications, VSICS Kanpur (May 2025), with teammate Ujjwal Mishra. - https://www.linkedin.com/posts/pranjul-rathour_cybersecurity-runnerup-bcastudent-activity-7325737397202079744-ueob\n- [F097] (manual) 2nd Runner-Up, 'Perspectives Unleashed' debate competition, Computer Applications Department, VSICS Kanpur (May 2025). - https://www.linkedin.com/posts/pranjul-rathour_debatearena-perspectivesunleashed-publicspeaking-activity-7325858193023062016-SbCi\n\n### role (2)\n- [F032] (resume) Senior GenAI Engineer, SCULT INDIA\n- [F098] (manual) CTO & Co-Founder of SCULT INDIA alongside Saksham Gupta (CEO & Founder) and Raman Shukla (COO), mentored by Gaurav Gupta; hosted the first SCULT INDIA team meet in October 2025. - https://www.linkedin.com/posts/pranjul-rathour_scultindia-teamcelebration-firstmeet-activity-7385879998966132736-wQkU\n\n### summary (1)\n- [F033] (resume) GenAI engineer and AI product builder with 2+ years shipping production-grade AI systems — Retrieval-Augmented Generation (RAG) pipelines, fine-tuned LLMs, hybrid retrieval, and multi-modal AI applications spanning vision, speech, and OCR — architected end-to-end from data ingestion through deployment. Led engineering for a 14-member team building AI-powered products, pairing deep GenAI/ML engineering with full-stack delivery, while driving measurable business revenue as a startup technical lead.\n\n### post (34)\n- [F034] (linkedin) LinkedIn post (2025-12-29): We didn’t win this hackathon. But we walked out stronger. ⚡ This clip is from our pitch for STROT — a system we built to tackle generational poverty using BAL. BUDDHI. VIDYA. We had a product. We had a story. We had a vision. But on stage, we got just 2 minutes to explain a system that takes hours to truly understand. That’s how it goes sometimes. No complaints. Only lessons: ✔ Clarity matters more than depth. ✔ Storytelling matters as much as systems. ✔ And every stage builds you for the - https://www.linkedin.com/posts/pranjul-rathour_hackathon-pitching-startupjourney-activity-7411247121158508544-JiAW\n- [F035] (linkedin) LinkedIn post (2025-12-28): We didn’t win this hackathon. But we walked out stronger. ⚡ This clip is from our pitch for STROT — a system we built to tackle generational poverty using BAL. BUDDHI. VIDYA. We had a product. We had a story. We had a vision. But on stage, we got just 2 minutes to explain a system that takes hours to truly understand. That’s how it goes sometimes. No complaints. Only lessons: ✔ Clarity matters more than depth. ✔ Storytelling matters as much as systems. ✔ And every stage builds you for the - https://www.linkedin.com/posts/pranjul-rathour_hackathon-pitching-startupjourney-activity-7410884734999982080-kugV\n- [F036] (linkedin) LinkedIn post (2025-12-27): Not a demo. Not a pitch. Just us building STROT in real time ⚙️🚀 This video captures what hackathons really look like: code flying, designs changing, logic breaking, fixing, and repeating — all while the clock keeps ticking. We were deep in turning an idea into STROT.in — a system-driven platform to fight generational poverty using BAL. BUDDHI. VIDYA. Moments like these remind me: Products aren’t born in slides. They’re forged in late nights, debates, and lines of code. Here’s a glimpse of - https://www.linkedin.com/posts/pranjul-rathour_hackathon-buildinpublic-productbuilder-activity-7410522323541393408-BWb0\n- [F037] (linkedin) LinkedIn post (2025-12-26): Two nights. Almost no sleep. One goal: build STROT.in 🚀 This post isn’t about a final product. It’s about the process behind it. prod - https://lnkd.in/gX9SuTG8 souce code - https://lnkd.in/gXtYh4XX Over 48+ hours, our team worked through: ✔ System design ✔ Dashboards & flows ✔ UI + logic ✔ Pitch prep ✔ And a lot of coffee ☕ All to bring STROT — A Step Forward to life. A hackathon project focused on building infrastructure to break the cycle of generational poverty through BAL. BUDDHI. VI - https://www.linkedin.com/posts/pranjul-rathour_hackathon-buildinpublic-startuplife-activity-7410159999936655360-gg4l\n- [F038] (linkedin) LinkedIn post (2025-10-20): ✨ Our First SCULT INDIA Family Meet — A Day to Remember! ✨ This Diwali season became even more special for us as we hosted the very first meet of the SCULT India family — a moment filled with joy, laughter, and genuine connection. It was a privilege to come together not just as colleagues, but as a growing family bound by shared dreams and purpose. Alongside my amazing teammates — Saksham Gupta (CEO & Founder), Raman Shukla (COO), and myself, PRANJUL RATHOUR (CTO & Co-Founder) — we had the hon - https://www.linkedin.com/posts/pranjul-rathour_scultindia-teamcelebration-firstmeet-activity-7385879998966132736-wQkU\n- [F039] (linkedin) LinkedIn post (2025-10-05): 🚀 Built a Full Stack AI Project in Just 30 Minutes — Using AI to Build AI! What if I told you that you can create an entire end-to-end AI web app — backend + frontend + deployment — all in under 30 minutes? In my latest YouTube video, I’ve shown exactly how I built a working AI-powered full stack project using modern AI tools and automation — no complicated setup, no wasted hours. This video walks you through: ✅ How to plan and structure your AI app ✅ Setting up backend + frontend using AI to - https://www.linkedin.com/posts/pranjul-rathour_ai-fullstackdevelopment-webdevelopment-activity-7380444124149211136-TNwv\n- [F040] (linkedin) LinkedIn post (2025-09-23): spreading some gyan over Oceans 🌊 somewhere around Colombia, south carolina to a computer science student and I didn't know his name either - https://www.linkedin.com/posts/pranjul-rathour_spreading-some-gyan-over-oceans-somewhere-activity-7376035204307718144-ZjYs\n- [F041] (linkedin) LinkedIn post (2025-09-22): TCS CodeVita 2025 – Complete Guide to Preparation and Registration Hello Linkedin family, Are you planning to participate in TCS CodeVita 2025? This competition by Tata Consultancy Services (TCS) is one of the largest coding contests in the world and a direct gateway to TCS careers, placements, and jobs. Many students struggle with: - How to complete the TCS CodeVita registration process - Finding the correct CodeVita preparation material and syllabus - Practicing for competitiv - https://www.linkedin.com/posts/pranjul-rathour_pranjulrathour-pranjulrathor-pranjulrathur-activity-7375733105770475520-vjwm\n- [F042] (linkedin) LinkedIn post (2025-09-12): Calling all Tech Enthusiasts, Builders & Innovators! I’m excited to share that we’ve launched TECHVERSE ENCLAVE – a fast-growing community where passionate minds from every domain of technology come together to learn, share, and build. Whether you’re into AI, Web Dev, Cybersecurity, Data Science, Cloud, Startups, or any other tech field – this is the space for you. Inside, you’ll find: ✨ Knowledge sharing & resources ✨ Project collaboration & brainstorming ✨ Updates on events, hackathons & opp - https://www.linkedin.com/posts/pranjul-rathour_techcommunity-innovation-networking-activity-7372258240035926016-RpZV\n- [F043] (linkedin) LinkedIn post (2025-07-14): This is the no-BS advice I wish someone gave me in Year 1: 👉 Post your projects 👉 Talk to strangers (aka networking) 👉 Be bad at something — and grow in public Shared this with 100+ juniors at VSICS Kanpur BCA Induction 2025 The feedback? Electric ⚡ #VSICS #FutureOfEducation #PranjulRathour #BCA2025 #StudentMentor - https://www.linkedin.com/posts/pranjul-rathour_vsics-futureofeducation-pranjulrathour-activity-7350377255459577856-iW8g\n- [F044] (linkedin) LinkedIn post (2025-07-12): 📣 From Project Failures to Purposeful Mentorship | VSICS Kanpur BCA Induction 2025–2028 Back then? I was just a confused kid with a broken idea. Living Space Automation = my first major tech flop. 💔 Now? I’m standing at the front — mentoring 100+ future technologists at the Dr. Virendra Swarup Educational Foundation , Kanpur Swarup Educational Foundation, Kanpur (VSICS). The feeling? Unmatched. The mission? Unshakable. 💼⚡ 🧠 Here’s the Real Roadmap I Shared (Save this 👇) Year 1 – Foundation & - https://www.linkedin.com/posts/pranjul-rathour_pranjulrathour-vsicskanpur-techmentorship-activity-7349639896715730944-m__J\n- [F045] (linkedin) LinkedIn post (2025-07-11): From First Failure to First-Year Mentorship 💻✨ | BCA Induction 2025–2028 Dr. Virendra Swarup Educational Foundation , Kanpur (VSICS Kanpur) It feels surreal. Just a few semesters ago, I was struggling to get my first tech project off the ground — Living Space Automation failed HARD. Fast forward to today… I stood as a mentor on stage, guiding the incoming BCA Batch 2025–2028 at Dr. Virendra Swarup Institute of Computer Studies, Kanpur (VSICS) during their Induction Seminar. Legacy? In motion. - https://www.linkedin.com/posts/pranjul-rathour_pranjulrathour-pranjulrathore-vsicskanpur-activity-7349426879352721408-cYIL\n- [F046] (linkedin) LinkedIn post (2025-06-24): thats about the whole journey till now guys started from Dr. Virendra Swarup Educational Foundation , Kanpur Indian Institute of Technology, Kanpur India"
+}
