@@ -250,16 +250,6 @@
       "height": 470
     },
     {
-      "path": "media/images/test/mcp-smoke.jpg",
-      "kind": "image",
-      "bytes": 68591,
-      "sha256": "52328549932d331e3930cf80dbb18f168d6d6f694b587274ec030523e29262da",
-      "raw": "https://raw.githubusercontent.com/Pranjulrathour/pranjul-knowledge/main/media/images/test/mcp-smoke.jpg",
-      "cdn": "https://cdn.jsdelivr.net/gh/Pranjulrathour/pranjul-knowledge@main/media/images/test/mcp-smoke.jpg",
-      "height": 878,
-      "width": 719
-    },
-    {
       "path": "media/pdf/Pranjul_Rathour_Resume.pdf",
       "kind": "pdf",
       "bytes": 114262,
